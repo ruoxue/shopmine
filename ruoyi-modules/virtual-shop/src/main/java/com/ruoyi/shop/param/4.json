@@ -1,0 +1,45 @@
+[
+  {
+    "name": "颜色",
+    "list": [
+      {
+        "searchValue": null,
+        "createBy": null,
+        "createTime": null,
+        "updateBy": null,
+        "updateTime": null,
+        "remark": null,
+        "params": {},
+        "pageSize": 0,
+        "pageNum": 0,
+        "id": 5,
+        "shopId": null,
+        "goodsId": null,
+        "title": "颜色",
+        "displayOrder": null,
+        "psoSpecId": null,
+        "psoId": null,
+        "name": "红"
+      },
+      {
+        "searchValue": null,
+        "createBy": null,
+        "createTime": null,
+        "updateBy": null,
+        "updateTime": null,
+        "remark": null,
+        "params": {},
+        "pageSize": 0,
+        "pageNum": 0,
+        "id": 5,
+        "shopId": null,
+        "goodsId": null,
+        "title": "颜色",
+        "displayOrder": null,
+        "psoSpecId": null,
+        "psoId": null,
+        "name": "红r"
+      }
+    ]
+  }
+]

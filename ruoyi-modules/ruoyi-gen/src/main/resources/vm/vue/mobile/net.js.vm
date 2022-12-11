@@ -1,0 +1,7 @@
+
+const ${businessName}List = "/dev-api/religion/api/${businessName}/list";
+const ${businessName} = "/dev-api/religion/api/${businessName}";
+
+
+${businessName},
+${businessName}List,

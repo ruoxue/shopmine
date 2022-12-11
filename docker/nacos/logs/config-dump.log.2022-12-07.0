@@ -1,0 +1,54 @@
+2022-12-07 00:21:27,110 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1650767194000, length=542, md5=aaa73b809cfd4d0058893aa13da57806
+
+2022-12-07 00:21:27,225 INFO [dump-all-ok] ruoyi-gateway-dev.yml+DEFAULT_GROUP, 1668795556000, length=1864, md5=eec1a400fd82173f8490151ec953267a
+
+2022-12-07 00:21:27,262 INFO [dump-all-ok] ruoyi-auth-dev.yml+DEFAULT_GROUP, 1668795606000, length=92, md5=da27300267052b34821a122841b40aea
+
+2022-12-07 00:21:27,282 INFO [dump-all-ok] ruoyi-monitor-dev.yml+DEFAULT_GROUP, 1608539287000, length=144, md5=d8997d0707a2fd5d9fc4e8409da38129
+
+2022-12-07 00:21:27,310 INFO [dump-all-ok] ruoyi-system-dev.yml+DEFAULT_GROUP, 1668795653000, length=2220, md5=f6683a99d1887f16295099d60ae348c2
+
+2022-12-07 00:21:27,328 INFO [dump-all-ok] ruoyi-gen-dev.yml+DEFAULT_GROUP, 1668795697000, length=867, md5=a8050457384e2bc06349d977b51cacab
+
+2022-12-07 00:21:27,337 INFO [dump-all-ok] ruoyi-job-dev.yml+DEFAULT_GROUP, 1668795730000, length=650, md5=36c384640a5bd0828b2fb183363446cc
+
+2022-12-07 00:21:27,348 INFO [dump-all-ok] ruoyi-file-dev.yml+DEFAULT_GROUP, 1668272302000, length=572, md5=e1c5ca72ef47428425b00fdfa773661a
+
+2022-12-07 00:21:27,362 INFO [dump-all-ok] sentinel-ruoyi-gateway+DEFAULT_GROUP, 1605801600000, length=715, md5=9f3a3069261598f74220bc47958ec252
+
+2022-12-07 00:21:27,380 INFO [dump-all-ok] ruoyi-religion-dev.yml+DEFAULT_GROUP, 1668795779000, length=863, md5=323f29918dee73b691b190e97c4f7b10
+
+2022-12-07 00:21:27,388 INFO [dump-all-ok] ruoyi-phone-dev.yml+DEFAULT_GROUP, 1668795812000, length=645, md5=545bf45055373da22836e1b3bcdf2dd1
+
+2022-12-07 00:56:30,466 INFO [dump-task] add task. groupKey=ruoyi-phone2-dev.yml+DEFAULT_GROUP, taskKey=ruoyi-phone2-dev.yml+DEFAULT_GROUP++false+null
+
+2022-12-07 00:56:35,311 INFO [dump-task] add task. groupKey=ruoyi-phone2-dev.yml+DEFAULT_GROUP, taskKey=ruoyi-phone2-dev.yml+DEFAULT_GROUP++false+null
+
+2022-12-07 00:56:35,379 WARN [dump-ignore] ignore to save cache file. groupKey=ruoyi-phone2-dev.yml+DEFAULT_GROUP, md5=545bf45055373da22836e1b3bcdf2dd1, lastModifiedOld=1670345788685, lastModifiedNew=1670345789147
+
+2022-12-07 00:57:21,541 INFO [dump-task] add task. groupKey=ruoyi-phone2-dev.yml+DEFAULT_GROUP, taskKey=ruoyi-phone2-dev.yml+DEFAULT_GROUP++false+null
+
+2022-12-07 20:00:16,952 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1650767194000, length=542, md5=aaa73b809cfd4d0058893aa13da57806
+
+2022-12-07 20:00:16,965 INFO [dump-all-ok] ruoyi-gateway-dev.yml+DEFAULT_GROUP, 1668795556000, length=1864, md5=eec1a400fd82173f8490151ec953267a
+
+2022-12-07 20:00:16,970 INFO [dump-all-ok] ruoyi-auth-dev.yml+DEFAULT_GROUP, 1668795606000, length=92, md5=da27300267052b34821a122841b40aea
+
+2022-12-07 20:00:16,977 INFO [dump-all-ok] ruoyi-monitor-dev.yml+DEFAULT_GROUP, 1608539287000, length=144, md5=d8997d0707a2fd5d9fc4e8409da38129
+
+2022-12-07 20:00:17,413 INFO [dump-all-ok] ruoyi-system-dev.yml+DEFAULT_GROUP, 1668795653000, length=2220, md5=f6683a99d1887f16295099d60ae348c2
+
+2022-12-07 20:00:17,428 INFO [dump-all-ok] ruoyi-gen-dev.yml+DEFAULT_GROUP, 1668795697000, length=867, md5=a8050457384e2bc06349d977b51cacab
+
+2022-12-07 20:00:17,442 INFO [dump-all-ok] ruoyi-job-dev.yml+DEFAULT_GROUP, 1668795730000, length=650, md5=36c384640a5bd0828b2fb183363446cc
+
+2022-12-07 20:00:17,459 INFO [dump-all-ok] ruoyi-file-dev.yml+DEFAULT_GROUP, 1668272302000, length=572, md5=e1c5ca72ef47428425b00fdfa773661a
+
+2022-12-07 20:00:17,500 INFO [dump-all-ok] sentinel-ruoyi-gateway+DEFAULT_GROUP, 1605801600000, length=715, md5=9f3a3069261598f74220bc47958ec252
+
+2022-12-07 20:00:17,516 INFO [dump-all-ok] ruoyi-religion-dev.yml+DEFAULT_GROUP, 1668795779000, length=863, md5=323f29918dee73b691b190e97c4f7b10
+
+2022-12-07 20:00:17,561 INFO [dump-all-ok] ruoyi-phone-dev.yml+DEFAULT_GROUP, 1668795812000, length=645, md5=545bf45055373da22836e1b3bcdf2dd1
+
+2022-12-07 20:00:17,589 INFO [dump-all-ok] ruoyi-phone2-dev.yml+DEFAULT_GROUP, 1670345841000, length=597, md5=db112521942a495bc1a28acf68703f7d
+

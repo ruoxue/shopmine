@@ -1,0 +1,17 @@
+2022-12-06 00:03:39,134|172.30.0.2|application-dev.yml|DEFAULT_GROUP|null|null|1650767194000|pull|ok|-1|172.30.0.31|false
+2022-12-06 00:03:39,403|172.30.0.2|ruoyi-gateway|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.31|false
+2022-12-06 00:03:39,472|172.30.0.2|ruoyi-gateway.yml|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.31|false
+2022-12-06 00:03:39,539|172.30.0.2|ruoyi-gateway-dev.yml|DEFAULT_GROUP|null|null|1668795556000|pull|ok|-1|172.30.0.31|false
+2022-12-06 00:03:59,237|172.30.0.2|sentinel-ruoyi-gateway|DEFAULT_GROUP|null|null|1605801600000|pull|ok|-1|172.30.0.31|false
+2022-12-06 00:04:59,691|172.30.0.2|application-dev.yml|DEFAULT_GROUP|null|null|1650767194000|pull|ok|-1|172.30.0.34|false
+2022-12-06 00:04:59,825|172.30.0.2|ruoyi-gen|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.34|false
+2022-12-06 00:04:59,863|172.30.0.2|ruoyi-gen.yml|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.34|false
+2022-12-06 00:04:59,898|172.30.0.2|ruoyi-gen-dev.yml|DEFAULT_GROUP|null|null|1668795697000|pull|ok|-1|172.30.0.34|false
+2022-12-06 00:05:02,839|172.30.0.2|application-dev.yml|DEFAULT_GROUP|null|null|1650767194000|pull|ok|-1|172.30.0.33|false
+2022-12-06 00:05:02,945|172.30.0.2|ruoyi-system|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.33|false
+2022-12-06 00:05:02,985|172.30.0.2|ruoyi-system.yml|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.33|false
+2022-12-06 00:05:03,060|172.30.0.2|ruoyi-system-dev.yml|DEFAULT_GROUP|null|null|1668795653000|pull|ok|-1|172.30.0.33|false
+2022-12-06 00:06:06,871|172.30.0.2|application-dev.yml|DEFAULT_GROUP|null|null|1650767194000|pull|ok|-1|172.30.0.33|false
+2022-12-06 00:06:06,926|172.30.0.2|ruoyi-system|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.33|false
+2022-12-06 00:06:06,954|172.30.0.2|ruoyi-system.yml|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.33|false
+2022-12-06 00:06:06,986|172.30.0.2|ruoyi-system-dev.yml|DEFAULT_GROUP|null|null|1668795653000|pull|ok|-1|172.30.0.33|false

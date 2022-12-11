@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.phone.mapper.TAreaMapper">
+    
+    <resultMap type="TArea" id="TAreaResult">
+        <result property="areaId"    column="area_id"    />
+        <result property="areaCode"    column="area_code"    />
+        <result property="areaName"    column="area_name"    />
+        <result property="level"    column="level"    />
+        <result property="cityCode"    column="city_code"    />
+        <result property="center"    column="center"    />
+        <result property="parentId"    column="parent_id"    />
+        <result property="status"    column="status"    />
+    </resultMap>
+
+    <sql id="selectTAreaVo">
+        select area_id, area_code, area_name, level, city_code, center, parent_id, status from t_area
+    </sql>
+
+    <select id="selectTAreaList" parameterType="TArea" resultMap="TAreaResult">
+        <include refid="selectTAreaVo"/>
+        <where>  
+            <if test="areaCode != null  and areaCode != ''"> and area_code = #{areaCode}</if>
+            <if test="areaName != null  and areaName != ''"> and area_name like concat('%', #{areaName}, '%')</if>
+            <if test="center != null  and center != ''"> and center = #{center}</if>
+            <if test="parentId != null "> and parent_id = #{parentId}</if>
+            <if test="status != null "> and status = #{status}</if>
+        </where>
+    </select>
+    
+    <select id="selectTAreaByAreaId" parameterType="Long" resultMap="TAreaResult">
+        <include refid="selectTAreaVo"/>
+        where area_id = #{areaId}
+    </select>
+        
+    <insert id="insertTArea" parameterType="TArea" useGeneratedKeys="true" keyProperty="areaId">
+        insert into t_area
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="areaCode != null and areaCode != ''">area_code,</if>
+            <if test="areaName != null and areaName != ''">area_name,</if>
+            <if test="level != null">level,</if>
+            <if test="cityCode != null">city_code,</if>
+            <if test="center != null">center,</if>
+            <if test="parentId != null">parent_id,</if>
+            <if test="status != null">status,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="areaCode != null and areaCode != ''">#{areaCode},</if>
+            <if test="areaName != null and areaName != ''">#{areaName},</if>
+            <if test="level != null">#{level},</if>
+            <if test="cityCode != null">#{cityCode},</if>
+            <if test="center != null">#{center},</if>
+            <if test="parentId != null">#{parentId},</if>
+            <if test="status != null">#{status},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTArea" parameterType="TArea">
+        update t_area
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="areaCode != null and areaCode != ''">area_code = #{areaCode},</if>
+            <if test="areaName != null and areaName != ''">area_name = #{areaName},</if>
+            <if test="level != null">level = #{level},</if>
+            <if test="cityCode != null">city_code = #{cityCode},</if>
+            <if test="center != null">center = #{center},</if>
+            <if test="parentId != null">parent_id = #{parentId},</if>
+            <if test="status != null">status = #{status},</if>
+        </trim>
+        where area_id = #{areaId}
+    </update>
+
+    <delete id="deleteTAreaByAreaId" parameterType="Long">
+        delete from t_area where area_id = #{areaId}
+    </delete>
+
+    <delete id="deleteTAreaByAreaIds" parameterType="String">
+        delete from t_area where area_id in 
+        <foreach item="areaId" collection="array" open="(" separator="," close=")">
+            #{areaId}
+        </foreach>
+    </delete>
+</mapper>

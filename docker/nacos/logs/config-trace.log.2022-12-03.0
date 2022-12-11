@@ -1,0 +1,5 @@
+2022-12-03 12:32:18,624|172.30.0.2|application-dev.yml|DEFAULT_GROUP|null|null|1650767194000|pull|ok|-1|172.30.0.31|false
+2022-12-03 12:32:19,592|172.30.0.2|ruoyi-gateway|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.31|false
+2022-12-03 12:32:19,641|172.30.0.2|ruoyi-gateway.yml|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.31|false
+2022-12-03 12:32:19,686|172.30.0.2|ruoyi-gateway-dev.yml|DEFAULT_GROUP|null|null|1668795556000|pull|ok|-1|172.30.0.31|false
+2022-12-03 12:32:56,615|172.30.0.2|sentinel-ruoyi-gateway|DEFAULT_GROUP|null|null|1605801600000|pull|ok|-1|172.30.0.31|false

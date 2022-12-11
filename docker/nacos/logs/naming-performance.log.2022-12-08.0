@@ -1,0 +1,1714 @@
+2022-12-08 00:24:13,012 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 00:24:13,051 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 00:24:13,075 INFO PERFORMANCE:|0|0|0|-1|-1|0|0
+
+2022-12-08 00:24:13,098 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:24:13,107 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:25:13,114 INFO PERFORMANCE:|0|0|0|-1|-1|0|0
+
+2022-12-08 00:25:13,120 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:25:13,127 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:26:13,133 INFO PERFORMANCE:|0|0|0|-1|-1|0|0
+
+2022-12-08 00:26:13,148 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:26:13,164 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:27:13,591 INFO PERFORMANCE:|0|0|0|-1|-1|0|0
+
+2022-12-08 00:27:13,597 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:27:13,603 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:28:14,412 INFO PERFORMANCE:|0|0|0|-1|-1|0|0
+
+2022-12-08 00:28:14,579 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:28:14,619 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:29:15,904 INFO PERFORMANCE:|0|0|0|-1|-1|0|0
+
+2022-12-08 00:29:15,910 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:29:15,941 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:30:16,006 INFO PERFORMANCE:|0|0|0|-1|-1|0|0
+
+2022-12-08 00:30:16,015 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:30:16,018 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:31:16,105 INFO PERFORMANCE:|2|2|3|2374|1211|5|0
+
+2022-12-08 00:31:19,081 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:31:19,117 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:32:19,611 INFO PERFORMANCE:|4|1|8|1091|799|12|1
+
+2022-12-08 00:32:19,645 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:32:19,649 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:33:19,696 INFO PERFORMANCE:|7|4|17|1112|723|23|1
+
+2022-12-08 00:33:19,705 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:33:19,736 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:34:19,741 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 00:34:19,760 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 00:34:19,768 INFO PERFORMANCE:|7|4|17|-1|-1|23|1
+
+2022-12-08 00:34:19,775 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:34:19,776 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:35:19,801 INFO PERFORMANCE:|7|4|17|-1|-1|23|1
+
+2022-12-08 00:35:19,815 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:35:19,844 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:36:19,846 INFO PERFORMANCE:|7|4|18|774|774|24|1
+
+2022-12-08 00:36:19,904 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:36:19,936 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:37:20,021 INFO PERFORMANCE:|7|4|18|-1|-1|24|1
+
+2022-12-08 00:37:20,039 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:37:20,059 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:38:21,431 INFO PERFORMANCE:|7|4|18|-1|-1|24|1
+
+2022-12-08 00:38:22,236 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:38:29,414 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:39:30,974 INFO PERFORMANCE:|7|-11|33|3348|960|40|20
+
+2022-12-08 00:39:30,987 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:39:31,024 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:40:30,998 INFO PERFORMANCE:|7|-11|34|624|624|41|20
+
+2022-12-08 00:40:31,017 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:40:31,034 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:41:31,052 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:41:31,058 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:41:31,065 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:42:31,075 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:42:31,094 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:42:31,116 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:43:31,141 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:43:31,151 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:43:31,156 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:44:31,163 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 00:44:31,203 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 00:44:31,216 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:44:31,242 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:44:31,256 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:45:31,309 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:45:31,321 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:45:31,330 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:46:31,496 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:46:31,603 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:46:31,607 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:47:31,668 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:47:31,683 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:47:31,698 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:48:32,297 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:48:33,925 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:48:34,099 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:49:36,886 INFO PERFORMANCE:|7|-11|34|-1|-1|41|20
+
+2022-12-08 00:49:37,090 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:49:39,944 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:50:40,568 INFO PERFORMANCE:|7|-32|34|1027|1027|42|29
+
+2022-12-08 00:50:40,615 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:50:40,628 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:51:40,567 INFO PERFORMANCE:|6|-29|50|1262|806|62|32
+
+2022-12-08 00:51:40,635 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:51:40,653 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:52:40,668 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 00:52:40,677 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:52:40,683 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:53:40,687 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 00:53:40,711 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:53:40,721 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:54:40,744 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 00:54:40,803 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 00:54:40,841 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 00:54:40,894 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:54:40,964 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:55:40,996 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 00:55:41,100 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:55:41,119 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:56:41,163 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 00:56:41,186 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:56:41,203 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:57:41,235 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 00:57:41,626 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:57:41,704 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:58:41,773 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 00:58:41,786 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:58:41,788 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 00:59:41,834 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 00:59:41,959 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 00:59:42,253 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:00:42,438 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 01:00:42,447 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:00:42,458 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:01:42,542 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 01:01:42,692 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:01:42,884 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:02:42,975 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 01:02:43,113 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:02:43,454 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:04:09,172 INFO PERFORMANCE:|6|-29|50|-1|-1|62|32
+
+2022-12-08 01:04:09,199 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:04:09,900 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:05:09,916 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 01:05:09,947 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 01:05:10,001 INFO PERFORMANCE:|6|-47|68|7795|2194|83|32
+
+2022-12-08 01:05:10,068 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:05:10,115 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:06:10,127 INFO PERFORMANCE:|6|-47|68|-1|-1|83|32
+
+2022-12-08 01:06:10,137 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:06:10,148 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:07:10,159 INFO PERFORMANCE:|7|-46|69|725|633|86|32
+
+2022-12-08 01:07:10,187 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:07:10,202 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:08:10,219 INFO PERFORMANCE:|7|-46|69|-1|-1|86|32
+
+2022-12-08 01:08:10,236 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:08:10,249 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:09:10,263 INFO PERFORMANCE:|7|-46|69|-1|-1|86|32
+
+2022-12-08 01:09:10,284 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:09:10,290 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:10:10,307 INFO PERFORMANCE:|7|-46|69|-1|-1|86|32
+
+2022-12-08 01:10:10,315 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:10:10,319 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:11:10,326 INFO PERFORMANCE:|7|-46|69|-1|-1|86|32
+
+2022-12-08 01:11:10,333 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:11:10,335 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:12:10,342 INFO PERFORMANCE:|7|-46|70|584|584|87|32
+
+2022-12-08 01:12:10,368 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:12:10,381 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:13:10,442 INFO PERFORMANCE:|7|-46|70|-1|-1|87|32
+
+2022-12-08 01:13:10,450 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:13:10,454 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:14:10,902 INFO PERFORMANCE:|7|-51|75|1839|1034|101|32
+
+2022-12-08 01:14:57,998 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:15:10,997 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:16:40,108 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 01:16:56,876 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 01:17:05,877 INFO PERFORMANCE:|7|-51|75|-1|-1|101|32
+
+2022-12-08 01:17:15,431 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:18:16,506 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 01:20:08,499 INFO PERFORMANCE:|7|-51|75|-1|-1|101|32
+
+2022-12-08 01:20:24,382 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 01:21:17,016 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:22:34,787 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 22:22:34,800 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 22:22:34,808 INFO PERFORMANCE:|0|0|0|-1|-1|0|0
+
+2022-12-08 22:22:34,823 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:22:34,833 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:23:34,837 INFO PERFORMANCE:|2|2|3|1365|896|4|0
+
+2022-12-08 22:23:34,854 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:23:34,863 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:24:34,872 INFO PERFORMANCE:|3|3|4|607|607|5|0
+
+2022-12-08 22:24:34,890 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:24:34,907 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:25:34,915 INFO PERFORMANCE:|3|3|6|574|568|7|0
+
+2022-12-08 22:25:34,936 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:25:34,943 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:26:34,962 INFO PERFORMANCE:|3|3|6|-1|-1|7|0
+
+2022-12-08 22:26:35,063 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:26:35,134 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:27:35,245 INFO PERFORMANCE:|4|4|8|630|607|10|0
+
+2022-12-08 22:27:35,254 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:27:35,259 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:28:35,265 INFO PERFORMANCE:|4|4|8|-1|-1|10|0
+
+2022-12-08 22:28:35,279 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:28:35,303 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:29:35,321 INFO PERFORMANCE:|4|4|8|-1|-1|10|0
+
+2022-12-08 22:29:35,333 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:29:35,340 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:30:35,348 INFO PERFORMANCE:|4|4|9|747|747|11|0
+
+2022-12-08 22:30:35,369 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:30:35,376 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:31:35,383 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:31:35,398 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:31:35,411 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:32:35,423 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 22:32:35,442 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 22:32:35,447 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:32:35,449 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:32:35,454 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:33:35,460 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:33:35,477 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:33:35,495 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:34:35,637 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:34:35,649 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:34:35,677 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:35:35,693 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:35:35,733 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:35:35,772 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:36:35,799 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:36:35,822 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:36:35,861 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:37:35,890 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:37:35,913 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:37:36,112 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:38:36,115 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:38:36,124 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:38:36,137 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:39:36,142 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:39:36,164 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:39:36,184 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:40:36,198 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:40:36,206 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:40:36,220 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:41:36,224 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:41:36,233 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:41:36,237 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:42:36,243 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 22:42:36,283 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 22:42:36,366 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:42:36,391 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:42:36,443 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:43:36,467 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:43:36,478 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:43:36,485 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:44:36,516 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:44:36,534 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:44:36,543 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:45:36,550 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:45:36,559 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:45:36,565 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:46:36,570 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:46:36,580 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:46:36,595 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:47:36,602 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:47:36,612 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:47:36,617 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:48:36,621 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:48:36,628 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:48:36,632 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:49:36,705 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:49:36,752 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:49:36,769 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:50:36,794 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:50:36,810 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:50:36,819 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:51:36,829 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:51:36,897 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:51:36,911 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:52:36,929 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 22:52:36,935 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 22:52:36,940 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:52:36,944 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:52:36,949 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:53:36,959 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:53:36,967 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:53:36,973 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:54:36,980 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:54:36,990 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:54:36,996 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:55:37,001 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:55:37,016 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:55:37,019 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:56:37,026 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:56:37,034 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:56:37,037 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:57:37,041 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:57:37,054 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:57:37,056 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:58:37,061 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:58:37,072 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:58:37,076 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 22:59:37,087 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 22:59:37,096 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 22:59:37,099 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:00:37,107 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:00:37,112 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:00:37,119 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:01:37,127 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:01:37,134 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:01:37,137 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:02:37,144 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 23:02:37,154 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 23:02:37,158 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:02:37,163 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:02:37,167 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:03:37,171 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:03:37,179 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:03:37,186 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:04:37,211 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:04:37,217 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:04:37,222 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:05:37,241 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:05:37,249 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:05:37,251 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:06:37,259 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:06:37,270 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:06:37,277 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:07:37,280 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:07:37,290 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:07:37,295 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:08:37,302 INFO PERFORMANCE:|4|4|9|-1|-1|11|0
+
+2022-12-08 23:08:37,314 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:08:37,318 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:09:37,328 INFO PERFORMANCE:|4|2|11|701|662|15|0
+
+2022-12-08 23:09:37,342 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:09:37,346 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:10:37,352 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:10:37,361 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:10:37,381 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:11:37,384 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:11:37,397 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:11:37,400 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:12:37,410 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 23:12:37,419 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 23:12:37,429 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:12:37,439 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:12:37,452 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:13:37,457 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:13:37,476 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:13:37,480 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:14:37,495 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:14:37,505 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:14:37,512 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:15:37,520 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:15:37,529 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:15:37,559 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:16:37,569 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:16:37,579 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:16:37,583 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:17:37,583 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:17:37,591 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:17:37,611 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:18:37,620 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:18:37,633 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:18:37,638 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:19:37,508 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:19:37,518 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:19:37,525 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:20:37,542 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:20:37,585 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:20:37,622 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:21:37,654 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:21:37,662 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:21:37,663 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:22:37,646 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 23:22:37,658 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 23:22:37,663 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:22:37,674 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:22:37,681 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:23:37,675 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:23:37,695 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:23:37,715 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:24:37,752 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:24:37,857 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:24:37,895 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:25:37,923 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:25:37,934 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:25:37,938 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:26:37,946 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:26:37,958 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:26:37,964 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:27:37,966 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:27:37,977 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:27:37,979 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:28:37,982 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:28:37,992 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:28:38,007 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:29:38,012 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:29:38,025 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:29:38,028 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:30:38,086 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:30:38,165 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:30:38,217 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:31:38,225 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:31:38,239 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:31:38,243 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:32:38,249 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 23:32:38,260 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 23:32:38,270 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:32:38,277 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:32:38,297 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:33:38,308 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:33:38,316 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:33:38,324 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:34:38,327 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:34:38,340 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:34:38,348 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:35:38,421 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:35:38,432 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:35:38,434 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:36:38,444 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:36:38,454 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:36:38,458 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:37:38,451 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:37:38,502 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:37:38,510 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:38:38,564 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:38:38,575 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:38:38,579 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:39:38,590 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:39:38,603 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:39:38,605 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:40:38,615 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:40:38,647 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:40:38,657 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:41:38,658 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:41:38,676 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:41:38,687 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:42:38,703 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 23:42:38,828 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 23:42:38,919 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:42:39,008 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:42:39,153 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:43:39,209 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:43:39,228 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:43:39,236 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:44:39,242 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:44:39,302 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:44:39,360 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:45:39,367 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:45:39,379 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:45:39,388 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:46:39,397 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:46:39,408 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:46:39,414 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:47:39,426 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:47:39,452 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:47:39,519 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:48:39,601 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:48:39,613 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:48:39,627 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:49:39,632 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:49:39,646 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:49:39,649 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:50:39,737 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:50:39,770 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:50:39,786 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:51:39,791 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:51:39,823 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:51:39,834 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:52:39,848 INFO PERFORMANCE:|serviceCount|ipCount|subscribeCount|maxPushCost|avgPushCost|totalPushCount|failPushCount
+
+2022-12-08 23:52:39,858 INFO DISTRO:|V1SyncDone|V1SyncFail|V2SyncDone|V2SyncFail|V2VerifyFail|
+
+2022-12-08 23:52:39,866 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:52:39,882 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:52:39,899 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:53:39,904 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:53:39,954 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:53:39,974 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:54:39,988 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:54:40,023 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:54:40,044 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:55:40,049 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:55:40,064 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:55:40,067 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:56:40,073 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:56:40,088 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:56:40,103 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:57:40,108 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:57:40,116 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:57:40,118 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:58:40,124 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:58:40,139 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:58:40,180 INFO DISTRO:|0|0|0|0|0|
+
+2022-12-08 23:59:40,188 INFO PERFORMANCE:|4|2|11|-1|-1|15|0
+
+2022-12-08 23:59:40,204 INFO Task worker status: 
+naming_0%4, pending tasks: 0
+naming_1%4, pending tasks: 0
+naming_2%4, pending tasks: 0
+naming_3%4, pending tasks: 0
+
+
+2022-12-08 23:59:40,212 INFO DISTRO:|0|0|0|0|0|
+

@@ -1,0 +1,16 @@
+ {
+			"path": "pages/${businessName}/index",
+			"style": {
+				"navigationBarTitleText": "${functionName}",
+				"enablePullDownRefresh": false
+			}
+
+},
+ {
+			"path": "pages/${businessName}/edit",
+			"style": {
+				"navigationBarTitleText": "${functionName}",
+				"enablePullDownRefresh": false
+			}
+
+}

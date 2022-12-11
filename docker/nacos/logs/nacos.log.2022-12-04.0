@@ -1,0 +1,757 @@
+2022-12-04 00:09:27,001 WARN clearConfigHistory start
+
+2022-12-04 00:09:27,215 WARN clearConfigHistory, getBeforeStamp:2022-11-04 00:09:27.0, pageSize:1000
+
+2022-12-04 00:19:27,263 WARN clearConfigHistory start
+
+2022-12-04 00:19:27,277 WARN clearConfigHistory, getBeforeStamp:2022-11-04 00:19:27.0, pageSize:1000
+
+2022-12-04 00:29:27,273 WARN clearConfigHistory start
+
+2022-12-04 00:29:27,287 WARN clearConfigHistory, getBeforeStamp:2022-11-04 00:29:27.0, pageSize:1000
+
+2022-12-04 00:39:27,292 WARN clearConfigHistory start
+
+2022-12-04 00:39:27,325 WARN clearConfigHistory, getBeforeStamp:2022-11-04 00:39:27.0, pageSize:1000
+
+2022-12-04 00:49:27,306 WARN clearConfigHistory start
+
+2022-12-04 00:49:27,359 WARN clearConfigHistory, getBeforeStamp:2022-11-04 00:49:27.0, pageSize:1000
+
+2022-12-04 00:59:27,416 WARN clearConfigHistory start
+
+2022-12-04 00:59:27,432 WARN clearConfigHistory, getBeforeStamp:2022-11-04 00:59:27.0, pageSize:1000
+
+2022-12-04 01:09:27,361 WARN clearConfigHistory start
+
+2022-12-04 01:09:27,374 WARN clearConfigHistory, getBeforeStamp:2022-11-04 01:09:27.0, pageSize:1000
+
+2022-12-04 01:19:27,430 WARN clearConfigHistory start
+
+2022-12-04 01:19:27,442 WARN clearConfigHistory, getBeforeStamp:2022-11-04 01:19:27.0, pageSize:1000
+
+2022-12-04 01:29:27,420 WARN clearConfigHistory start
+
+2022-12-04 01:29:27,444 WARN clearConfigHistory, getBeforeStamp:2022-11-04 01:29:27.0, pageSize:1000
+
+2022-12-04 02:09:10,650 WARN clearConfigHistory start
+
+2022-12-04 02:09:10,913 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m15s376ms19µs203ns).
+
+2022-12-04 02:09:10,947 WARN clearConfigHistory, getBeforeStamp:2022-11-04 02:09:10.0, pageSize:1000
+
+2022-12-04 02:26:12,500 WARN clearConfigHistory start
+
+2022-12-04 02:26:12,537 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m31s494ms984µs180ns).
+
+2022-12-04 02:26:12,762 WARN clearConfigHistory, getBeforeStamp:2022-11-04 02:26:12.0, pageSize:1000
+
+2022-12-04 02:44:19,580 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m36s455ms366µs310ns).
+
+2022-12-04 02:44:19,629 WARN clearConfigHistory start
+
+2022-12-04 02:44:19,846 WARN clearConfigHistory, getBeforeStamp:2022-11-04 02:44:19.0, pageSize:1000
+
+2022-12-04 04:06:11,308 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m21s485ms327µs567ns).
+
+2022-12-04 04:06:12,386 WARN clearConfigHistory start
+
+2022-12-04 04:06:12,789 WARN clearConfigHistory, getBeforeStamp:2022-11-04 04:06:12.0, pageSize:1000
+
+2022-12-04 04:23:49,642 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m7s839ms55µs71ns).
+
+2022-12-04 04:23:50,356 WARN clearConfigHistory start
+
+2022-12-04 04:23:50,402 WARN clearConfigHistory, getBeforeStamp:2022-11-04 04:23:50.0, pageSize:1000
+
+2022-12-04 04:41:06,609 WARN clearConfigHistory start
+
+2022-12-04 04:41:06,742 WARN clearConfigHistory, getBeforeStamp:2022-11-04 04:41:06.0, pageSize:1000
+
+2022-12-04 04:41:06,724 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m46s502ms605µs935ns).
+
+2022-12-04 06:05:16,340 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m9s607ms183µs803ns).
+
+2022-12-04 06:05:16,661 WARN clearConfigHistory start
+
+2022-12-04 06:05:16,664 WARN clearConfigHistory, getBeforeStamp:2022-11-04 06:05:16.0, pageSize:1000
+
+2022-12-04 06:22:03,862 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m16s985ms645µs994ns).
+
+2022-12-04 06:22:03,950 WARN clearConfigHistory start
+
+2022-12-04 06:22:04,047 WARN clearConfigHistory, getBeforeStamp:2022-11-04 06:22:04.0, pageSize:1000
+
+2022-12-04 07:25:47,233 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m13s191ms367µs416ns).
+
+2022-12-04 07:25:47,254 WARN clearConfigHistory start
+
+2022-12-04 07:25:47,870 WARN clearConfigHistory, getBeforeStamp:2022-11-04 07:25:47.0, pageSize:1000
+
+2022-12-04 09:26:33,495 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h15s259ms835µs716ns).
+
+2022-12-04 09:26:33,627 WARN clearConfigHistory start
+
+2022-12-04 09:26:33,706 WARN clearConfigHistory, getBeforeStamp:2022-11-04 09:26:33.0, pageSize:1000
+
+2022-12-04 10:21:42,544 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m39s208ms562µs36ns).
+
+2022-12-04 10:21:42,904 WARN clearConfigHistory start
+
+2022-12-04 10:21:43,126 WARN clearConfigHistory, getBeforeStamp:2022-11-04 10:21:43.0, pageSize:1000
+
+2022-12-04 10:31:43,954 WARN clearConfigHistory start
+
+2022-12-04 10:31:43,960 WARN clearConfigHistory, getBeforeStamp:2022-11-04 10:31:43.0, pageSize:1000
+
+2022-12-04 10:41:44,095 WARN clearConfigHistory start
+
+2022-12-04 10:41:44,099 WARN clearConfigHistory, getBeforeStamp:2022-11-04 10:41:44.0, pageSize:1000
+
+2022-12-04 10:51:44,105 WARN clearConfigHistory start
+
+2022-12-04 10:51:44,112 WARN clearConfigHistory, getBeforeStamp:2022-11-04 10:51:44.0, pageSize:1000
+
+2022-12-04 11:01:44,142 WARN clearConfigHistory start
+
+2022-12-04 11:01:44,148 WARN clearConfigHistory, getBeforeStamp:2022-11-04 11:01:44.0, pageSize:1000
+
+2022-12-04 11:11:44,194 WARN clearConfigHistory start
+
+2022-12-04 11:11:44,200 WARN clearConfigHistory, getBeforeStamp:2022-11-04 11:11:44.0, pageSize:1000
+
+2022-12-04 11:21:44,214 WARN clearConfigHistory start
+
+2022-12-04 11:21:44,223 WARN clearConfigHistory, getBeforeStamp:2022-11-04 11:21:44.0, pageSize:1000
+
+2022-12-04 13:21:43,344 WARN clearConfigHistory start
+
+2022-12-04 13:21:44,767 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59m58s865ms591µs781ns).
+
+2022-12-04 13:21:44,714 WARN clearConfigHistory, getBeforeStamp:2022-11-04 13:21:44.0, pageSize:1000
+
+2022-12-04 13:44:27,955 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m13s114ms930µs737ns).
+
+2022-12-04 13:44:28,068 WARN clearConfigHistory start
+
+2022-12-04 13:44:28,076 WARN clearConfigHistory, getBeforeStamp:2022-11-04 13:44:28.0, pageSize:1000
+
+2022-12-04 13:44:31,595 WARN Stream Error
+
+io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2Exception$StreamException: Received DATA frame for an unknown stream 5
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2Exception.streamError(Http2Exception.java:147)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.shouldIgnoreHeadersOrDataFrame(DefaultHttp2ConnectionDecoder.java:596)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onDataRead(DefaultHttp2ConnectionDecoder.java:239)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger$1.onDataRead(Http2InboundFrameLogger.java:48)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readDataFrame(DefaultHttp2FrameReader.java:422)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:251)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:160)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger.readFrame(Http2InboundFrameLogger.java:41)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:174)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:378)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:438)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:498)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:437)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:792)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:475)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-04 13:44:31,663 WARN Stream Error
+
+io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2Exception$StreamException: Received DATA frame for an unknown stream 5
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2Exception.streamError(Http2Exception.java:147)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.shouldIgnoreHeadersOrDataFrame(DefaultHttp2ConnectionDecoder.java:596)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onDataRead(DefaultHttp2ConnectionDecoder.java:239)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger$1.onDataRead(Http2InboundFrameLogger.java:48)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readDataFrame(DefaultHttp2FrameReader.java:422)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:251)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:160)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger.readFrame(Http2InboundFrameLogger.java:41)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:174)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:378)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:438)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:498)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:437)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:792)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:475)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-04 13:47:18,475 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@535c0ded (Communications link failure
+
+The last packet successfully received from the server was 165,322 milliseconds ago. The last packet sent successfully to the server was 165,890 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2022-12-04 13:47:22,589 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@293555f3 (Communications link failure
+
+The last packet successfully received from the server was 86,784 milliseconds ago. The last packet sent successfully to the server was 86,881 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2022-12-04 13:47:41,531 WARN Stream Error
+
+io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2Exception$StreamException: Received DATA frame for an unknown stream 5
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2Exception.streamError(Http2Exception.java:147)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.shouldIgnoreHeadersOrDataFrame(DefaultHttp2ConnectionDecoder.java:596)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onDataRead(DefaultHttp2ConnectionDecoder.java:239)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger$1.onDataRead(Http2InboundFrameLogger.java:48)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readDataFrame(DefaultHttp2FrameReader.java:422)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:251)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:160)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger.readFrame(Http2InboundFrameLogger.java:41)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:174)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:378)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:438)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:498)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:437)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:792)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:475)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-04 13:54:30,883 WARN clearConfigHistory start
+
+2022-12-04 13:54:30,893 WARN clearConfigHistory, getBeforeStamp:2022-11-04 13:54:30.0, pageSize:1000
+
+2022-12-04 14:04:30,943 WARN clearConfigHistory start
+
+2022-12-04 14:04:30,950 WARN clearConfigHistory, getBeforeStamp:2022-11-04 14:04:30.0, pageSize:1000
+
+2022-12-04 14:14:31,027 WARN clearConfigHistory start
+
+2022-12-04 14:14:31,035 WARN clearConfigHistory, getBeforeStamp:2022-11-04 14:14:31.0, pageSize:1000
+
+2022-12-04 14:24:31,205 WARN clearConfigHistory start
+
+2022-12-04 14:24:31,250 WARN clearConfigHistory, getBeforeStamp:2022-11-04 14:24:31.0, pageSize:1000
+
+2022-12-04 14:34:31,600 WARN clearConfigHistory start
+
+2022-12-04 14:34:31,631 WARN clearConfigHistory, getBeforeStamp:2022-11-04 14:34:31.0, pageSize:1000
+
+2022-12-04 14:37:06,059 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@777e9312 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 3,708 milliseconds ago. The last packet sent successfully to the server was 5,845 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1201)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:111)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:381)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:475)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl$CheckDbHealthTask.run(ExternalDataSourceServiceImpl.java:267)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 3,708 milliseconds ago. The last packet sent successfully to the server was 5,845 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:520)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:639)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:987)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:933)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:664)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1169)
+	... 14 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:464)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1346)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:73)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:962)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:514)
+	... 20 common frames omitted
+2022-12-04 14:37:06,453 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@7b91b5a2 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 6,566 milliseconds ago. The last packet sent successfully to the server was 7,475 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1009)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:722)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:744)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:757)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:879)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:901)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:68)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:57)
+	at com.alibaba.nacos.plugin.auth.impl.persistence.ExternalRolePersistServiceImpl.getRolesByUserNameAndRoleName(ExternalRolePersistServiceImpl.java:109)
+	at com.alibaba.nacos.plugin.auth.impl.roles.NacosRoleServiceImpl.reload(NacosRoleServiceImpl.java:80)
+	at sun.reflect.GeneratedMethodAccessor175.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 6,566 milliseconds ago. The last packet sent successfully to the server was 7,475 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:520)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:639)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:987)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:666)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 26 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:464)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1346)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:73)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:962)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:514)
+	... 31 common frames omitted
+2022-12-04 14:44:31,750 WARN clearConfigHistory start
+
+2022-12-04 14:44:31,770 WARN clearConfigHistory, getBeforeStamp:2022-11-04 14:44:31.0, pageSize:1000
+
+2022-12-04 14:54:32,141 WARN clearConfigHistory start
+
+2022-12-04 14:54:32,160 WARN clearConfigHistory, getBeforeStamp:2022-11-04 14:54:32.0, pageSize:1000
+
+2022-12-04 15:04:32,214 WARN clearConfigHistory start
+
+2022-12-04 15:04:32,246 WARN clearConfigHistory, getBeforeStamp:2022-11-04 15:04:32.0, pageSize:1000
+
+2022-12-04 15:14:33,883 WARN clearConfigHistory start
+
+2022-12-04 15:14:33,911 WARN clearConfigHistory, getBeforeStamp:2022-11-04 15:14:33.0, pageSize:1000
+
+2022-12-04 15:24:34,154 WARN clearConfigHistory start
+
+2022-12-04 15:24:34,172 WARN clearConfigHistory, getBeforeStamp:2022-11-04 15:24:34.0, pageSize:1000
+
+2022-12-04 15:34:34,385 WARN clearConfigHistory start
+
+2022-12-04 15:34:34,400 WARN clearConfigHistory, getBeforeStamp:2022-11-04 15:34:34.0, pageSize:1000
+
+2022-12-04 15:44:34,594 WARN clearConfigHistory start
+
+2022-12-04 15:44:34,607 WARN clearConfigHistory, getBeforeStamp:2022-11-04 15:44:34.0, pageSize:1000
+
+2022-12-04 15:54:34,738 WARN clearConfigHistory start
+
+2022-12-04 15:54:34,767 WARN clearConfigHistory, getBeforeStamp:2022-11-04 15:54:34.0, pageSize:1000
+
+2022-12-04 16:04:34,882 WARN clearConfigHistory start
+
+2022-12-04 16:04:34,903 WARN clearConfigHistory, getBeforeStamp:2022-11-04 16:04:34.0, pageSize:1000
+
+2022-12-04 16:14:34,986 WARN clearConfigHistory start
+
+2022-12-04 16:14:35,003 WARN clearConfigHistory, getBeforeStamp:2022-11-04 16:14:35.0, pageSize:1000
+
+2022-12-04 16:24:35,167 WARN clearConfigHistory start
+
+2022-12-04 16:24:35,183 WARN clearConfigHistory, getBeforeStamp:2022-11-04 16:24:35.0, pageSize:1000
+
+2022-12-04 16:34:35,227 WARN clearConfigHistory start
+
+2022-12-04 16:34:35,242 WARN clearConfigHistory, getBeforeStamp:2022-11-04 16:34:35.0, pageSize:1000
+
+2022-12-04 16:44:35,355 WARN clearConfigHistory start
+
+2022-12-04 16:44:35,368 WARN clearConfigHistory, getBeforeStamp:2022-11-04 16:44:35.0, pageSize:1000
+
+2022-12-04 16:54:35,574 WARN clearConfigHistory start
+
+2022-12-04 16:54:35,616 WARN clearConfigHistory, getBeforeStamp:2022-11-04 16:54:35.0, pageSize:1000
+
+2022-12-04 17:04:35,991 WARN clearConfigHistory start
+
+2022-12-04 17:04:36,012 WARN clearConfigHistory, getBeforeStamp:2022-11-04 17:04:36.0, pageSize:1000
+
+2022-12-04 17:14:36,214 WARN clearConfigHistory start
+
+2022-12-04 17:14:36,257 WARN clearConfigHistory, getBeforeStamp:2022-11-04 17:14:36.0, pageSize:1000
+
+2022-12-04 17:24:36,721 WARN clearConfigHistory start
+
+2022-12-04 17:24:36,734 WARN clearConfigHistory, getBeforeStamp:2022-11-04 17:24:36.0, pageSize:1000
+
+2022-12-04 17:34:36,917 WARN clearConfigHistory start
+
+2022-12-04 17:34:36,946 WARN clearConfigHistory, getBeforeStamp:2022-11-04 17:34:36.0, pageSize:1000
+
+2022-12-04 17:44:37,228 WARN clearConfigHistory start
+
+2022-12-04 17:44:37,250 WARN clearConfigHistory, getBeforeStamp:2022-11-04 17:44:37.0, pageSize:1000
+
+2022-12-04 17:54:37,479 WARN clearConfigHistory start
+
+2022-12-04 17:54:37,509 WARN clearConfigHistory, getBeforeStamp:2022-11-04 17:54:37.0, pageSize:1000
+
+2022-12-04 17:55:57,742 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@5927c670 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 11,272 milliseconds ago. The last packet sent successfully to the server was 12,555 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1009)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:722)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:744)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:757)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:810)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:99)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:57)
+	at com.alibaba.nacos.plugin.auth.impl.persistence.ExternalUserPersistServiceImpl.getUsers(ExternalUserPersistServiceImpl.java:149)
+	at com.alibaba.nacos.plugin.auth.impl.users.NacosUserDetailsServiceImpl.getUsersFromDatabase(NacosUserDetailsServiceImpl.java:90)
+	at com.alibaba.nacos.plugin.auth.impl.users.NacosUserDetailsServiceImpl.reload(NacosUserDetailsServiceImpl.java:56)
+	at sun.reflect.GeneratedMethodAccessor174.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 11,272 milliseconds ago. The last packet sent successfully to the server was 12,555 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor102.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:520)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:639)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:987)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:666)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 26 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:464)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1346)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:73)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:962)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:514)
+	... 31 common frames omitted
+2022-12-04 18:00:06,940 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m37s449ms83µs958ns).
+
+2022-12-04 18:01:26,923 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@de5007e marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 330,232 milliseconds ago. The last packet sent successfully to the server was 331,499 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1201)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:111)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:381)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:475)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl$CheckDbHealthTask.run(ExternalDataSourceServiceImpl.java:267)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 330,232 milliseconds ago. The last packet sent successfully to the server was 331,499 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor102.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:520)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:639)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:987)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:933)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:664)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1169)
+	... 14 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:464)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1346)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:73)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:962)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:514)
+	... 20 common frames omitted
+2022-12-04 18:00:58,929 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s810ms844ns).
+
+2022-12-04 18:02:05,469 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s318ms644µs222ns).
+
+2022-12-04 18:04:37,563 WARN clearConfigHistory start
+
+2022-12-04 18:04:37,576 WARN clearConfigHistory, getBeforeStamp:2022-11-04 18:04:37.0, pageSize:1000
+
+2022-12-04 18:14:37,593 WARN clearConfigHistory start
+
+2022-12-04 18:14:37,601 WARN clearConfigHistory, getBeforeStamp:2022-11-04 18:14:37.0, pageSize:1000
+
+2022-12-04 18:24:37,598 WARN clearConfigHistory start
+
+2022-12-04 18:24:37,607 WARN clearConfigHistory, getBeforeStamp:2022-11-04 18:24:37.0, pageSize:1000
+
+2022-12-04 18:34:37,602 WARN clearConfigHistory start
+
+2022-12-04 18:34:37,608 WARN clearConfigHistory, getBeforeStamp:2022-11-04 18:34:37.0, pageSize:1000
+
+2022-12-04 18:44:37,606 WARN clearConfigHistory start
+
+2022-12-04 18:44:37,617 WARN clearConfigHistory, getBeforeStamp:2022-11-04 18:44:37.0, pageSize:1000
+
+2022-12-04 18:54:37,624 WARN clearConfigHistory start
+
+2022-12-04 18:54:37,631 WARN clearConfigHistory, getBeforeStamp:2022-11-04 18:54:37.0, pageSize:1000
+
+2022-12-04 19:04:37,782 WARN clearConfigHistory start
+
+2022-12-04 19:04:37,788 WARN clearConfigHistory, getBeforeStamp:2022-11-04 19:04:37.0, pageSize:1000
+
+2022-12-04 19:14:37,809 WARN clearConfigHistory start
+
+2022-12-04 19:14:37,852 WARN clearConfigHistory, getBeforeStamp:2022-11-04 19:14:37.0, pageSize:1000
+
+2022-12-04 19:24:37,928 WARN clearConfigHistory start
+
+2022-12-04 19:24:37,936 WARN clearConfigHistory, getBeforeStamp:2022-11-04 19:24:37.0, pageSize:1000
+
+2022-12-04 19:34:37,946 WARN clearConfigHistory start
+
+2022-12-04 19:34:37,954 WARN clearConfigHistory, getBeforeStamp:2022-11-04 19:34:37.0, pageSize:1000
+
+2022-12-04 19:44:37,969 WARN clearConfigHistory start
+
+2022-12-04 19:44:37,976 WARN clearConfigHistory, getBeforeStamp:2022-11-04 19:44:37.0, pageSize:1000
+
+2022-12-04 19:54:37,999 WARN clearConfigHistory start
+
+2022-12-04 19:54:38,013 WARN clearConfigHistory, getBeforeStamp:2022-11-04 19:54:38.0, pageSize:1000
+
+2022-12-04 20:04:38,043 WARN clearConfigHistory start
+
+2022-12-04 20:04:38,053 WARN clearConfigHistory, getBeforeStamp:2022-11-04 20:04:38.0, pageSize:1000
+
+2022-12-04 20:14:38,103 WARN clearConfigHistory start
+
+2022-12-04 20:14:38,110 WARN clearConfigHistory, getBeforeStamp:2022-11-04 20:14:38.0, pageSize:1000
+
+2022-12-04 20:24:38,113 WARN clearConfigHistory start
+
+2022-12-04 20:24:38,121 WARN clearConfigHistory, getBeforeStamp:2022-11-04 20:24:38.0, pageSize:1000
+
+2022-12-04 20:34:38,188 WARN clearConfigHistory start
+
+2022-12-04 20:34:38,196 WARN clearConfigHistory, getBeforeStamp:2022-11-04 20:34:38.0, pageSize:1000
+
+2022-12-04 20:44:38,229 WARN clearConfigHistory start
+
+2022-12-04 20:44:38,245 WARN clearConfigHistory, getBeforeStamp:2022-11-04 20:44:38.0, pageSize:1000
+
+2022-12-04 20:54:38,380 WARN clearConfigHistory start
+
+2022-12-04 20:54:38,388 WARN clearConfigHistory, getBeforeStamp:2022-11-04 20:54:38.0, pageSize:1000
+
+2022-12-04 21:04:38,414 WARN clearConfigHistory start
+
+2022-12-04 21:04:38,420 WARN clearConfigHistory, getBeforeStamp:2022-11-04 21:04:38.0, pageSize:1000
+
+2022-12-04 21:14:38,443 WARN clearConfigHistory start
+
+2022-12-04 21:14:38,453 WARN clearConfigHistory, getBeforeStamp:2022-11-04 21:14:38.0, pageSize:1000
+
+2022-12-04 21:24:38,467 WARN clearConfigHistory start
+
+2022-12-04 21:24:38,486 WARN clearConfigHistory, getBeforeStamp:2022-11-04 21:24:38.0, pageSize:1000
+
+2022-12-04 21:34:38,549 WARN clearConfigHistory start
+
+2022-12-04 21:34:38,592 WARN clearConfigHistory, getBeforeStamp:2022-11-04 21:34:38.0, pageSize:1000
+
+2022-12-04 21:44:38,683 WARN clearConfigHistory start
+
+2022-12-04 21:44:38,700 WARN clearConfigHistory, getBeforeStamp:2022-11-04 21:44:38.0, pageSize:1000
+
+2022-12-04 21:54:38,697 WARN clearConfigHistory start
+
+2022-12-04 21:54:38,705 WARN clearConfigHistory, getBeforeStamp:2022-11-04 21:54:38.0, pageSize:1000
+
+2022-12-04 22:04:38,726 WARN clearConfigHistory start
+
+2022-12-04 22:04:38,732 WARN clearConfigHistory, getBeforeStamp:2022-11-04 22:04:38.0, pageSize:1000
+
+2022-12-04 22:14:38,820 WARN clearConfigHistory start
+
+2022-12-04 22:14:38,831 WARN clearConfigHistory, getBeforeStamp:2022-11-04 22:14:38.0, pageSize:1000
+
+2022-12-04 22:24:38,855 WARN clearConfigHistory start
+
+2022-12-04 22:24:38,865 WARN clearConfigHistory, getBeforeStamp:2022-11-04 22:24:38.0, pageSize:1000
+
+2022-12-04 22:34:38,927 WARN clearConfigHistory start
+
+2022-12-04 22:34:38,932 WARN clearConfigHistory, getBeforeStamp:2022-11-04 22:34:38.0, pageSize:1000
+
+2022-12-04 22:44:38,968 WARN clearConfigHistory start
+
+2022-12-04 22:44:38,977 WARN clearConfigHistory, getBeforeStamp:2022-11-04 22:44:38.0, pageSize:1000
+
+2022-12-04 22:54:39,012 WARN clearConfigHistory start
+
+2022-12-04 22:54:39,023 WARN clearConfigHistory, getBeforeStamp:2022-11-04 22:54:39.0, pageSize:1000
+
+2022-12-04 23:04:39,085 WARN clearConfigHistory start
+
+2022-12-04 23:04:39,092 WARN clearConfigHistory, getBeforeStamp:2022-11-04 23:04:39.0, pageSize:1000
+
+2022-12-04 23:14:39,098 WARN clearConfigHistory start
+
+2022-12-04 23:14:39,105 WARN clearConfigHistory, getBeforeStamp:2022-11-04 23:14:39.0, pageSize:1000
+
+2022-12-04 23:24:39,122 WARN clearConfigHistory start
+
+2022-12-04 23:24:39,128 WARN clearConfigHistory, getBeforeStamp:2022-11-04 23:24:39.0, pageSize:1000
+
+2022-12-04 23:34:39,188 WARN clearConfigHistory start
+
+2022-12-04 23:34:39,196 WARN clearConfigHistory, getBeforeStamp:2022-11-04 23:34:39.0, pageSize:1000
+
+2022-12-04 23:44:39,236 WARN clearConfigHistory start
+
+2022-12-04 23:44:39,242 WARN clearConfigHistory, getBeforeStamp:2022-11-04 23:44:39.0, pageSize:1000
+
+2022-12-04 23:54:39,268 WARN clearConfigHistory start
+
+2022-12-04 23:54:39,275 WARN clearConfigHistory, getBeforeStamp:2022-11-04 23:54:39.0, pageSize:1000
+

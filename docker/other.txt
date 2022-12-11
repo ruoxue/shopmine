@@ -1,0 +1,39 @@
+docker run -d \
+--name ruoyi-nacos1 \
+--network ruoyi    \
+-e MODE=standalone -e prefer_host_mode=ip \-p 8848:8848 \-p 9848:9848 \-p 9849:9849 \
+-e SPRING_DATASOURCE_PLATFORM=mysql \
+-e MYSQL_SERVICE_HOST=172.20.0.3 \
+-e MYSQL_SERVICE_PORT=3306 \
+-e MYSQL_SERVICE_USER=root \
+-e MYSQL_SERVICE_PASSWORD=123456 \
+-e MYSQL_SERVICE_DB_NAME=ry_config \
+-e MYSQL_SERVICE_DB_PARAM=characterEncoding=utf8&connectTimeout=10000&socketTimeout=10000&autoReconnect=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true \
+--label='com.docker.compose.project=docker' \
+nacos/nacos-server
+
+
+docker run  --env=MODE=standalone --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --env=PREFER_HOST_MODE=ip --env=BASE_DIR=/home/nacos --env=CLASSPATH=.:/home/nacos/conf: --env=CLUSTER_CONF=/home/nacos/conf/cluster.conf --env=FUNCTION_MODE=all --env=JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk --env=NACOS_USER=nacos --env=JAVA=/usr/lib/jvm/java-1.8.0-openjdk/bin/java --env=JVM_XMS=1g --env=JVM_XMX=1g --env=JVM_XMN=512m --env=JVM_MS=128m --env=JVM_MMS=320m --env=NACOS_DEBUG=n --env=TOMCAT_ACCESSLOG_ENABLED=false --env=TIME_ZONE=Asia/Shanghai --volume=/Users/mi/IdeaProjects/shopmine/docker/nacos/conf/application.properties:/home/nacos/conf/application.properties:rw --volume=/Users/mi/IdeaProjects/shopmine/docker/nacos/logs:/home/nacos/logs:rw --volume=/home/nacos/conf/application.properties --volume=/home/nacos/logs --network=ruoyi --workdir=/home/nacos -p 8848:8848 -p 9848:9848 -p 9849:9849   --label='com.docker.compose.container-number=1' --label='com.docker.compose.oneoff=False' --label='com.docker.compose.project=docker' --label='com.docker.compose.project.config_files=docker-compose.yml' --label='com.docker.compose.project.working_dir=/Users/mi/IdeaProjects/shopmine/docker' --label='com.docker.compose.service=ruoyi-nacos' --label='com.docker.compose.version=1.26.2' --label='org.label-schema.build-date=20201113' --label='org.label-schema.license=GPLv2' --label='org.label-schema.name=CentOS Base Image' --label='org.label-schema.schema-version=1.0' --label='org.label-schema.vendor=CentOS' --label='org.opencontainers.image.created=2022-10-20T13:16:07.660Z' --label='org.opencontainers.image.description=This project contains a Docker image meant to facilitate the deployment of Nacos .' --label='org.opencontainers.image.licenses=' --label='org.opencontainers.image.revision=3736ce9a58dbc74cf5f0d259e5d66e3a1abdadfd' --label='org.opencontainers.image.source=https://github.com/nacos-group/nacos-docker' --label='org.opencontainers.image.title=nacos-docker' --label='org.opencontainers.image.url=https://github.com/nacos-group/nacos-docker' --label='org.opencontainers.image.vendor=CentOS' --label='org.opencontainers.image.version=v2.1.2' --runtime=runc -d nacos/nacos-server
+
+
+docker network inspect  ruoyi
+
+
+docker run --hostname=59a2f76bf79b -
+-env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ --env=GOSU_VERSION=1.14 --env=REDIS_VERSION=7.0.5
+ --env=REDIS_DOWNLOAD_URL=http://download.redis.io/releases/redis-7.0.5.tar.gz
+  --env=REDIS_DOWNLOAD_SHA=67054cc37b58c125df93bd78000261ec0ef4436a26b40f38262c780e56315cc3
+  --volume=/Users/mi/IdeaProjects/shopmine/docker/redis/conf/redis.conf:/home/ruoyi/redis/redis.conf:rw
+  --volume=/Users/mi/IdeaProjects/shopmine/docker/redis/data:/data:rw
+  --volume=/data --volume=/home/ruoyi/redis -
+  -volume=/home/ruoyi/redis/redis.conf
+  --network=docker_default --workdir=/home/ruoyi/redis
+  -p 6379:6379
+  --label='com.docker.compose.config-hash=62b9dec8a3d46ec9b6bbc44f99f8c50c06748fe793dca63e4281d753b79d2637'
+   --label='com.docker.compose.container-number=1'
+   --label='com.docker.compose.oneoff=False'
+   --label='com.docker.compose.project=docker'
+    --label='com.docker.compose.project.config_files=docker-compose.yml'
+     --label='com.docker.compose.project.working_dir=/Users/mi/IdeaProjects/shopmine/docker' --label='com.docker.compose.service=ruoyi-redis'
+--label='com.docker.compose.version=1.26.2' --runtime=runc -d redis

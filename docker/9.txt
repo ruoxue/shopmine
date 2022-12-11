@@ -1,0 +1,22 @@
+docker run --hostname=e541385b4fb1
+--env=MYSQL_DATABASE=ry_cloud
+--env=MYSQL_ROOT_PASSWORD=123456
+ --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  --env=GOSU_VERSION=1.14 --env=MYSQL_MAJOR=8.0
+  --env=MYSQL_VERSION=8.0.31-1.el8
+  --env=MYSQL_SHELL_VERSION=8.0.31-1.el8
+  --volume=/Users/mi/IdeaProjects/shopmine/docker/mysql/logs:/logs:rw
+  --volume=/Users/mi/IdeaProjects/shopmine/docker/mysql/data:/var/lib/mysql:rw
+  --volume=/Users/mi/IdeaProjects/shopmine/docker/mysql/conf:/etc/mysql/conf.d:rw
+  --volume=/etc/mysql/conf.d --volume=/logs --volume=/var/lib/mysql
+  --network=docker_default
+-p 3306:3306
+--label='com.docker.compose.config-hash=7f3f2dad4010046c8056be9c171d2bce771c804743b8f2ae50f28d5d5198ec84'
+--label='com.docker.compose.container-number=1'
+--label='com.docker.compose.oneoff=False' -
+-label='com.docker.compose.project=docker'
+ --label='com.docker.compose.project.config_files=docker-compose.yml'
+ --label='com.docker.compose.project.working_dir=/Users/mi/IdeaProjects/shopmine/docker'
+  --label='com.docker.compose.service=ruoyi-mysql'
+   --label='com.docker.compose.version=1.26.2' --
+   runtime=runc -d mysql:8.0

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.phone.mapper.TSmsDetailMapper">
+    
+    <resultMap type="TSmsDetail" id="TSmsDetailResult">
+        <result property="id"    column="id"    />
+        <result property="phoneNum"    column="phone_num"    />
+        <result property="city"    column="city"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+        <result property="status"    column="status"    />
+        <result property="province"    column="province"    />
+        <result property="result"    column="result"    />
+        <result property="cycle"    column="cycle"    />
+        <result property="hadCycle"    column="had_cycle"    />
+        <result property="suplierId"    column="suplier_id"    />
+        <result property="taskId"    column="task_id"    />
+        <result property="templateId"    column="template_id"    />
+        <result property="suplierName"    column="suplier_name"    />
+        <result property="taskName"    column="task_name"    />
+        <result property="templateName"    column="template_name"    />
+
+    </resultMap>
+
+    <sql id="selectTSmsDetailVo">
+        select t_sms_detail.*, t_phone_task.name task_name,t_sms_template.name template_name,t_suplier.name suplier_name
+        from t_sms_detail
+        left join t_phone_task on t_phone_task.id=t_sms_detail.task_id
+        left join t_sms_template on t_sms_template.id=t_sms_detail.template_id
+        left join t_suplier on t_suplier.sup_id=t_sms_detail.suplier_id
+    </sql>
+
+    <select id="selectTSmsDetailList" parameterType="TSmsDetail" resultMap="TSmsDetailResult">
+        <include refid="selectTSmsDetailVo"/>
+        <where>  
+            <if test="city != null  and city != ''"> and t_sms_detail.city = #{city}</if>
+            <if test="templateId != null "> and t_sms_detail.template_id = #{templateId}</if>
+            <if test="status != null "> and t_sms_detail.status = #{status}</if>
+            <if test="taskId != null "> and t_sms_detail.task_id = #{taskId}</if>
+            <if test="province != null  and province != ''"> and t_sms_detail.province = #{province}</if>
+            <if test="result != null  and result != ''"> and t_sms_detail.result = #{result}</if>
+            <if test="cycle != null "> and t_sms_detail.cycle = #{cycle}</if>
+            <if test="hadCycle != null "> and t_sms_detail.had_cycle = #{hadCycle}</if>
+            <if test="suplierId != null "> and t_sms_detail.suplier_id = #{suplierId}</if>
+        </where>
+        order by t_sms_detail.id desc
+
+    </select>
+    
+    <select id="selectTSmsDetailById" parameterType="Long" resultMap="TSmsDetailResult">
+        <include refid="selectTSmsDetailVo"/>
+        where t_sms_detail.id = #{id}
+    </select>
+        
+    <insert id="insertTSmsDetail" parameterType="TSmsDetail" useGeneratedKeys="true" keyProperty="id">
+        insert into t_sms_detail
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="phoneNum != null">phone_num,</if>
+            <if test="city != null">city,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateTime != null">update_time,</if>
+
+            <if test="templateId != null">template_id,</if>
+            <if test="remark != null">remark,</if>
+            <if test="status != null">status,</if>
+            <if test="taskId != null">task_id,</if>
+            <if test="province != null">province,</if>
+            <if test="result != null">result,</if>
+            <if test="cycle != null">cycle,</if>
+            <if test="hadCycle != null">had_cycle,</if>
+            <if test="suplierId != null">suplier_id,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="phoneNum != null">#{phoneNum},</if>
+            <if test="city != null">#{city},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+
+            <if test="templateId != null">#{templateId},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="status != null">#{status},</if>
+            <if test="taskId != null">#{taskId},</if>
+            <if test="province != null">#{province},</if>
+            <if test="result != null">#{result},</if>
+            <if test="cycle != null">#{cycle},</if>
+            <if test="hadCycle != null">#{hadCycle},</if>
+            <if test="suplierId != null">#{suplierId},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTSmsDetail" parameterType="TSmsDetail">
+        update t_sms_detail
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="phoneNum != null">phone_num = #{phoneNum},</if>
+            <if test="city != null">city = #{city},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+            <if test="templateId != null">template_id = #{templateId},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="status != null">status = #{status},</if>
+            <if test="taskId != null">task_id = #{taskId},</if>
+            <if test="province != null">province = #{province},</if>
+            <if test="result != null">result = #{result},</if>
+            <if test="cycle != null">cycle = #{cycle},</if>
+            <if test="hadCycle != null">had_cycle = #{hadCycle},</if>
+            <if test="suplierId != null">suplier_id = #{suplierId},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteTSmsDetailById" parameterType="Long">
+        delete from t_sms_detail where id = #{id}
+    </delete>
+
+    <delete id="deleteTSmsDetailByIds" parameterType="String">
+        delete from t_sms_detail where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

@@ -1,0 +1,48 @@
+2022-12-05 23:06:56,397 INFO initializing Raft sub-system
+
+2022-12-05 23:06:56,398 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-12-05 23:06:56,694 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-12-05 23:06:59,623 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-12-05 23:07:02,085 WARN start to close old raft protocol!!!
+
+2022-12-05 23:07:02,089 WARN stop old raft protocol task for notifier
+
+2022-12-05 23:07:02,193 WARN clean old cache datum for old raft
+
+2022-12-05 23:07:02,201 WARN start to move old raft protocol metadata
+
+2022-12-05 23:51:45,215 INFO initializing Raft sub-system
+
+2022-12-05 23:51:45,215 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-12-05 23:51:45,527 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-12-05 23:51:49,076 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-12-05 23:51:50,205 WARN start to close old raft protocol!!!
+
+2022-12-05 23:51:50,205 WARN stop old raft protocol task for notifier
+
+2022-12-05 23:51:50,205 WARN clean old cache datum for old raft
+
+2022-12-05 23:51:50,205 WARN start to move old raft protocol metadata
+
+2022-12-05 23:58:21,365 INFO initializing Raft sub-system
+
+2022-12-05 23:58:21,366 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-12-05 23:58:21,608 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-12-05 23:58:26,348 WARN start to close old raft protocol!!!
+
+2022-12-05 23:58:26,348 WARN stop old raft protocol task for notifier
+
+2022-12-05 23:58:26,348 WARN clean old cache datum for old raft
+
+2022-12-05 23:58:26,349 WARN start to move old raft protocol metadata
+
+2022-12-05 23:58:38,952 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+

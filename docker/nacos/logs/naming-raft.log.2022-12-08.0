@@ -1,0 +1,48 @@
+2022-12-08 00:23:21,689 INFO initializing Raft sub-system
+
+2022-12-08 00:23:21,697 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-12-08 00:23:22,491 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-12-08 00:23:26,670 WARN start to close old raft protocol!!!
+
+2022-12-08 00:23:26,679 WARN stop old raft protocol task for notifier
+
+2022-12-08 00:23:26,680 WARN clean old cache datum for old raft
+
+2022-12-08 00:23:26,681 WARN start to move old raft protocol metadata
+
+2022-12-08 00:23:33,089 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-12-08 22:19:59,674 INFO initializing Raft sub-system
+
+2022-12-08 22:19:59,674 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-12-08 22:20:00,318 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-12-08 22:20:04,693 WARN start to close old raft protocol!!!
+
+2022-12-08 22:20:04,693 WARN stop old raft protocol task for notifier
+
+2022-12-08 22:20:04,693 WARN clean old cache datum for old raft
+
+2022-12-08 22:20:04,693 WARN start to move old raft protocol metadata
+
+2022-12-08 22:20:17,135 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-12-08 22:21:58,491 INFO initializing Raft sub-system
+
+2022-12-08 22:21:58,491 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-12-08 22:21:58,672 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-12-08 22:22:01,255 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-12-08 22:22:03,506 WARN start to close old raft protocol!!!
+
+2022-12-08 22:22:03,507 WARN stop old raft protocol task for notifier
+
+2022-12-08 22:22:03,507 WARN clean old cache datum for old raft
+
+2022-12-08 22:22:03,507 WARN start to move old raft protocol metadata
+

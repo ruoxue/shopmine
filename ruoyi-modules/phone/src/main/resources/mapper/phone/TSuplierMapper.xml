@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.phone.mapper.TSuplierMapper">
+
+    <resultMap type="TSuplier" id="TSuplierResult">
+        <result property="supId"    column="sup_id"    />
+        <result property="name"    column="name"    />
+        <result property="pwd"    column="pwd"    />
+        <result property="status"    column="status"    />
+        <result property="remark"    column="remark"    />
+        <result property="info"    column="info"    />
+        <result property="url"    column="url"    />
+        <result property="extno"    column="extno"    />
+        <result property="max"    column="max"    />
+        <result property="account"    column="account"    />
+        <result property="balance"    column="balance"    />
+    </resultMap>
+
+    <sql id="selectTSuplierVo">
+        select sup_id, name, pwd, status, remark, info, url, extno, max, account, balance from t_suplier
+    </sql>
+
+    <select id="selectTSuplierList" parameterType="TSuplier" resultMap="TSuplierResult">
+        <include refid="selectTSuplierVo"/>
+        <where>
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+            <if test="pwd != null  and pwd != ''"> and pwd = #{pwd}</if>
+            <if test="status != null "> and status = #{status}</if>
+            <if test="info != null  and info != ''"> and info = #{info}</if>
+            <if test="url != null  and url != ''"> and url = #{url}</if>
+            <if test="extno != null  and extno != ''"> and extno = #{extno}</if>
+            <if test="max != null "> and max = #{max}</if>
+            <if test="account != null  and account != ''"> and account = #{account}</if>
+            <if test="balance != null "> and balance = #{balance}</if>
+        </where>
+        order by t_suplier.sup_id desc
+
+    </select>
+
+    <select id="selectTSuplierBySupId" parameterType="Long" resultMap="TSuplierResult">
+        <include refid="selectTSuplierVo"/>
+        where sup_id = #{supId}
+    </select>
+
+    <insert id="insertTSuplier" parameterType="TSuplier" useGeneratedKeys="true" keyProperty="supId">
+        insert into t_suplier
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="name != null">name,</if>
+            <if test="pwd != null">pwd,</if>
+            <if test="status != null">status,</if>
+            <if test="remark != null">remark,</if>
+            <if test="info != null">info,</if>
+            <if test="url != null">url,</if>
+            <if test="extno != null">extno,</if>
+            <if test="max != null">max,</if>
+            <if test="account != null">account,</if>
+            <if test="balance != null">balance,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="name != null">#{name},</if>
+            <if test="pwd != null">#{pwd},</if>
+            <if test="status != null">#{status},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="info != null">#{info},</if>
+            <if test="url != null">#{url},</if>
+            <if test="extno != null">#{extno},</if>
+            <if test="max != null">#{max},</if>
+            <if test="account != null">#{account},</if>
+            <if test="balance != null">#{balance},</if>
+        </trim>
+    </insert>
+
+    <update id="updateTSuplier" parameterType="TSuplier">
+        update t_suplier
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="name != null">name = #{name},</if>
+            <if test="pwd != null">pwd = #{pwd},</if>
+            <if test="status != null">status = #{status},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="info != null">info = #{info},</if>
+            <if test="url != null">url = #{url},</if>
+            <if test="extno != null">extno = #{extno},</if>
+            <if test="max != null">max = #{max},</if>
+            <if test="account != null">account = #{account},</if>
+            <if test="balance != null">balance = #{balance},</if>
+        </trim>
+        where sup_id = #{supId}
+    </update>
+
+    <delete id="deleteTSuplierBySupId" parameterType="Long">
+        delete from t_suplier where sup_id = #{supId}
+    </delete>
+
+    <delete id="deleteTSuplierBySupIds" parameterType="String">
+        delete from t_suplier where sup_id in
+        <foreach item="supId" collection="array" open="(" separator="," close=")">
+            #{supId}
+        </foreach>
+    </delete>
+</mapper>

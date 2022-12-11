@@ -1,0 +1,1813 @@
+2022-12-09 00:29:18,667 INFO [PUSH-SUCC] 693ms, all delay time 1331ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:31:48,477 INFO [PUSH-SUCC] 207ms, all delay time 821ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:31:49,242 INFO [PUSH-SUCC] 54ms, all delay time 604ms, SLA 604ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 00:31:49,430 INFO [PUSH-SUCC] 243ms, all delay time 792ms, SLA 792ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 00:31:54,573 INFO [PUSH-SUCC] 93ms, all delay time 1059ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 00:32:32,940 INFO [PUSH-SUCC] 109ms, all delay time 787ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 00:43:36,490 INFO [PUSH-SUCC] 371ms, all delay time 930ms, SLA 934ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 00:43:36,859 INFO [PUSH-SUCC] 735ms, all delay time 1299ms, SLA 1303ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 00:43:41,400 ERROR [PUSH-FAIL] 5186ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =22, target=172.30.0.39
+
+2022-12-09 00:43:43,110 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =22
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:49:41,129 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}
+
+2022-12-09 00:49:41,731 INFO [PUSH-SUCC] 151ms, all delay time 736ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:49:43,653 INFO [PUSH-SUCC] 2067ms, all delay time 2681ms, SLA 2762ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 00:49:43,662 INFO [PUSH-SUCC] 1871ms, all delay time 2374ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:49:44,389 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}
+
+2022-12-09 00:49:44,941 INFO [PUSH-SUCC] 307ms, all delay time 855ms, SLA 855ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 00:49:45,145 INFO [PUSH-SUCC] 411ms, all delay time 935ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:49:46,967 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}
+
+2022-12-09 00:49:47,526 INFO [PUSH-SUCC] 45ms, all delay time 601ms, SLA 601ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 00:49:47,547 INFO [PUSH-SUCC] 30ms, all delay time 622ms, SLA 622ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 00:49:47,650 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}
+
+2022-12-09 00:49:47,758 INFO [PUSH-SUCC] 275ms, all delay time 833ms, SLA 833ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.33
+
+2022-12-09 00:49:48,129 INFO [PUSH-SUCC] 42ms, all delay time 552ms, SLA 554ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 00:49:48,277 INFO [PUSH-SUCC] 91ms, all delay time 639ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:49:48,368 INFO [PUSH-SUCC] 182ms, all delay time 707ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 00:49:48,396 INFO [PUSH-SUCC] 206ms, all delay time 716ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 00:49:48,413 INFO [PUSH-SUCC] 212ms, all delay time 797ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 00:51:40,212 ERROR [PUSH-FAIL] 5592ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =20, target=172.30.0.31
+
+2022-12-09 00:51:41,671 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =20
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:51:43,392 ERROR [PUSH-FAIL] 5283ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =21, target=172.30.0.32
+
+2022-12-09 00:51:43,513 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =21
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:51:43,835 ERROR [PUSH-FAIL] 5726ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =22, target=172.30.0.31
+
+2022-12-09 00:51:44,197 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =22
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:51:44,251 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}
+
+2022-12-09 00:51:49,221 ERROR [PUSH-FAIL] 6293ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =23, target=172.30.0.31
+
+2022-12-09 00:51:49,591 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =23
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:51:49,872 ERROR [PUSH-FAIL] 5018ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =26, target=172.30.0.31
+
+2022-12-09 00:51:49,905 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =26
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:51:49,929 ERROR [PUSH-FAIL] 5075ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =27, target=172.30.0.32
+
+2022-12-09 00:51:49,941 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =27
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:51:49,985 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}
+
+2022-12-09 00:51:54,600 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}
+
+2022-12-09 00:51:55,052 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}
+
+2022-12-09 00:51:55,151 INFO [PUSH-SUCC] 244ms, all delay time 748ms, SLA 748ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 00:51:55,281 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}
+
+2022-12-09 00:51:55,419 INFO [PUSH-SUCC] 204ms, all delay time 793ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-12-09 00:51:55,565 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}
+
+2022-12-09 00:51:55,795 INFO [PUSH-SUCC] 309ms, all delay time 827ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:51:55,856 INFO [PUSH-SUCC] 378ms, all delay time 888ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:51:55,916 INFO [PUSH-SUCC] 206ms, all delay time 755ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 00:51:55,985 INFO [PUSH-SUCC] 138ms, all delay time 764ms, SLA 420ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 00:51:56,052 INFO [PUSH-SUCC] 204ms, all delay time 831ms, SLA 487ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.33
+
+2022-12-09 00:51:56,261 INFO [PUSH-SUCC] 574ms, all delay time 1161ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 00:51:56,350 INFO [PUSH-SUCC] 491ms, all delay time 1129ms, SLA 785ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 00:51:56,577 INFO [PUSH-SUCC] 988ms, all delay time 1541ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 00:51:56,675 INFO [PUSH-SUCC] 297ms, all delay time 848ms for subscriber 172.30.0.33, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 00:51:56,785 INFO [PUSH-SUCC] 407ms, all delay time 958ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 00:51:56,808 INFO [PUSH-SUCC] 959ms, all delay time 1587ms, SLA 1243ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 00:52:29,797 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}
+
+2022-12-09 00:52:30,501 INFO [PUSH-SUCC] 386ms, all delay time 956ms, SLA 956ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 00:52:30,636 INFO [PUSH-SUCC] 326ms, all delay time 923ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 00:52:34,817 ERROR [PUSH-FAIL] 5395ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, reason=Timeout After 5000 milliseconds,requestId =42, target=172.30.0.31
+
+2022-12-09 00:52:34,925 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =42
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:52:35,358 ERROR [PUSH-FAIL] 5248ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, reason=Timeout After 5000 milliseconds,requestId =43, target=172.30.0.31
+
+2022-12-09 00:52:35,419 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =43
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:52:35,451 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}
+
+2022-12-09 00:52:52,895 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}
+
+2022-12-09 00:52:55,410 INFO [PUSH-SUCC] 1604ms, all delay time 3289ms, SLA 2515ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 00:52:56,552 INFO [PUSH-SUCC] 766ms, all delay time 1271ms for subscriber 172.30.0.33, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 00:52:58,601 ERROR [PUSH-FAIL] 5023ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, reason=Timeout After 5000 milliseconds,requestId =49, target=172.30.0.35
+
+2022-12-09 00:52:58,760 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =49
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:53:00,025 INFO [PUSH-SUCC] 533ms, all delay time 1182ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:53:00,351 INFO [PUSH-SUCC] 709ms, all delay time 1294ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 00:53:01,363 INFO [PUSH-SUCC] 904ms, all delay time 1481ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 00:53:05,480 INFO [PUSH-SUCC] 468ms, all delay time 1109ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 00:53:05,628 INFO [PUSH-SUCC] 412ms, all delay time 1032ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:53:05,989 INFO [PUSH-SUCC] 234ms, all delay time 799ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 00:53:06,371 INFO [PUSH-SUCC] 285ms, all delay time 891ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 00:53:06,526 INFO [PUSH-SUCC] 26ms, all delay time 560ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 00:53:39,134 ERROR [PUSH-FAIL] 4896ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=6}, reason=Timeout After 5000 milliseconds,requestId =60, target=172.30.0.31
+
+2022-12-09 00:53:39,149 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =60
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:54:09,604 ERROR [PUSH-FAIL] 5121ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=6}, reason=Timeout After 5000 milliseconds,requestId =63, target=172.30.0.32
+
+2022-12-09 00:54:09,659 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =63
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:54:16,352 ERROR [PUSH-FAIL] 5233ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=6}, reason=Timeout After 5000 milliseconds,requestId =64, target=172.30.0.32
+
+2022-12-09 00:54:16,605 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =64
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:54:22,729 ERROR [PUSH-FAIL] 5003ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=6}, reason=Timeout After 5000 milliseconds,requestId =65, target=172.30.0.32
+
+2022-12-09 00:54:22,743 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =65
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:54:33,682 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 00:54:34,154 INFO [PUSH-SUCC] 105ms, all delay time 675ms, SLA 473ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 00:54:34,243 INFO [PUSH-SUCC] 193ms, all delay time 764ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 00:56:09,714 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}
+
+2022-12-09 00:56:10,093 INFO [PUSH-SUCC] 175ms, all delay time 700ms, SLA 379ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 00:56:10,262 INFO [PUSH-SUCC] 44ms, all delay time 612ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 00:56:10,367 INFO [PUSH-SUCC] 149ms, all delay time 717ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 00:56:10,452 INFO [PUSH-SUCC] 219ms, all delay time 801ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=6}, originalSize=0, DataSize=0
+
+2022-12-09 00:56:35,514 ERROR [PUSH-FAIL] 65ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=172.30.0.39
+
+2022-12-09 00:56:35,529 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-12-09 00:56:35,590 INFO [PUSH-SUCC] 56ms, all delay time 712ms, SLA 712ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 00:56:40,452 ERROR [PUSH-FAIL] 5003ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =73, target=172.30.0.39
+
+2022-12-09 00:56:40,462 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =73
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 00:56:54,604 INFO [PUSH-SUCC] 16ms, all delay time 574ms, SLA 574ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 00:57:14,556 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}
+
+2022-12-09 00:57:14,952 INFO [PUSH-SUCC] 143ms, all delay time 656ms, SLA 397ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 00:57:27,137 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}
+
+2022-12-09 00:57:27,536 INFO [PUSH-SUCC] 14ms, all delay time 574ms, SLA 399ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 00:57:27,598 INFO [PUSH-SUCC] 77ms, all delay time 636ms, SLA 461ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 00:57:30,353 INFO [PUSH-SUCC] 23ms, all delay time 549ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-12-09 00:57:40,828 INFO [PUSH-SUCC] 17ms, all delay time 519ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 00:58:50,296 INFO [PUSH-SUCC] 48ms, all delay time 588ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 00:59:11,129 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 00:59:11,396 INFO [PUSH-SUCC] 31ms, all delay time 544ms, SLA 267ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 00:59:11,409 INFO [PUSH-SUCC] 32ms, all delay time 557ms, SLA 280ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 00:59:11,557 INFO [PUSH-SUCC] 190ms, all delay time 705ms, SLA 428ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 00:59:30,973 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}
+
+2022-12-09 00:59:31,425 INFO [PUSH-SUCC] 68ms, all delay time 656ms, SLA 451ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 00:59:31,630 INFO [PUSH-SUCC] 276ms, all delay time 862ms, SLA 657ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 00:59:31,710 INFO [PUSH-SUCC] 355ms, all delay time 942ms, SLA 737ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.33
+
+2022-12-09 01:01:36,251 INFO [PUSH-SUCC] 90ms, all delay time 678ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 01:03:31,473 INFO [PUSH-SUCC] 46ms, all delay time 656ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 01:38:18,690 INFO [PUSH-SUCC] 901ms, all delay time 1474ms, SLA 1511ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.32
+
+2022-12-09 01:38:19,685 INFO [PUSH-SUCC] 1913ms, all delay time 2469ms, SLA 2506ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 01:38:20,078 INFO [PUSH-SUCC] 2209ms, all delay time 2748ms, SLA 2749ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 01:38:22,109 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}
+
+2022-12-09 01:38:22,455 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}
+
+2022-12-09 01:38:22,496 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}
+
+2022-12-09 01:38:22,593 INFO [PUSH-SUCC] 84ms, all delay time 683ms, SLA 684ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.33
+
+2022-12-09 01:38:22,789 INFO [PUSH-SUCC] 264ms, all delay time 879ms, SLA 880ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 01:38:23,159 INFO [PUSH-SUCC] 350ms, all delay time 972ms, SLA 972ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 01:38:23,689 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}
+
+2022-12-09 01:38:23,743 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}
+
+2022-12-09 01:38:23,814 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}
+
+2022-12-09 01:38:24,352 INFO [PUSH-SUCC] 102ms, all delay time 678ms, SLA 731ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 01:38:24,419 INFO [PUSH-SUCC] 100ms, all delay time 676ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 01:38:24,440 INFO [PUSH-SUCC] 88ms, all delay time 700ms, SLA 756ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 01:38:24,452 INFO [PUSH-SUCC] 133ms, all delay time 709ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 01:38:24,758 INFO [PUSH-SUCC] 37ms, all delay time 637ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 01:38:25,574 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=3}
+
+2022-12-09 01:38:26,090 INFO [PUSH-SUCC] 42ms, all delay time 562ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 01:38:26,111 INFO [PUSH-SUCC] 58ms, all delay time 571ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 01:38:26,159 INFO [PUSH-SUCC] 10ms, all delay time 545ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 01:38:26,174 INFO [PUSH-SUCC] 22ms, all delay time 620ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 01:38:26,191 INFO [PUSH-SUCC] 35ms, all delay time 565ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 01:38:27,521 ERROR [PUSH-FAIL] 5001ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, reason=Timeout After 5000 milliseconds,requestId =104, target=172.30.0.32
+
+2022-12-09 01:38:27,536 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =104
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 01:53:28,711 INFO [PUSH-SUCC] 252ms, all delay time 842ms, SLA 853ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 01:53:28,807 INFO [PUSH-SUCC] 363ms, all delay time 938ms, SLA 949ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 01:53:29,971 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=5}
+
+2022-12-09 01:53:30,484 INFO [PUSH-SUCC] 31ms, all delay time 535ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 01:53:30,503 INFO [PUSH-SUCC] 38ms, all delay time 554ms, SLA 555ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 01:53:30,519 INFO [PUSH-SUCC] 59ms, all delay time 570ms, SLA 571ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 01:53:30,569 INFO [PUSH-SUCC] 16ms, all delay time 590ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 02:24:20,956 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}
+
+2022-12-09 02:24:22,538 INFO [PUSH-SUCC] 1370ms, all delay time 1887ms, SLA 1583ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 02:24:22,774 INFO [PUSH-SUCC] 978ms, all delay time 1556ms, SLA 1557ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 02:24:22,911 INFO [PUSH-SUCC] 305ms, all delay time 828ms for subscriber 172.30.0.33, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 02:24:24,661 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}
+
+2022-12-09 02:24:24,722 INFO [PUSH-SUCC] 106ms, all delay time 690ms, SLA 690ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 02:24:24,748 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}
+
+2022-12-09 02:24:25,239 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=7}
+
+2022-12-09 02:24:25,333 INFO [PUSH-SUCC] 79ms, all delay time 672ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 02:24:25,346 INFO [PUSH-SUCC] 93ms, all delay time 685ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 02:24:25,351 INFO [PUSH-SUCC] 78ms, all delay time 632ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 02:24:25,360 INFO [PUSH-SUCC] 213ms, all delay time 786ms, SLA 786ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 02:24:25,373 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=5}
+
+2022-12-09 02:24:25,632 INFO [PUSH-SUCC] 372ms, all delay time 913ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 02:24:25,817 INFO [PUSH-SUCC] 42ms, all delay time 611ms, SLA 611ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 02:24:25,899 INFO [PUSH-SUCC] 24ms, all delay time 556ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 02:24:26,002 INFO [PUSH-SUCC] 26ms, all delay time 560ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 02:24:26,118 INFO [PUSH-SUCC] 41ms, all delay time 577ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 03:54:48,392 INFO [PUSH-SUCC] 1220ms, all delay time 1985ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 03:54:49,265 INFO [PUSH-SUCC] 2037ms, all delay time 2676ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 03:54:50,044 INFO [PUSH-SUCC] 1841ms, all delay time 2432ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 03:54:50,158 INFO [PUSH-SUCC] 303ms, all delay time 1001ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 03:54:52,622 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=9}
+
+2022-12-09 03:54:53,078 INFO [PUSH-SUCC] 14ms, all delay time 542ms, SLA 542ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 03:54:53,186 INFO [PUSH-SUCC] 22ms, all delay time 619ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 03:54:53,204 INFO [PUSH-SUCC] 30ms, all delay time 608ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 03:54:53,229 INFO [PUSH-SUCC] 49ms, all delay time 574ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 03:54:53,269 INFO [PUSH-SUCC] 5ms, all delay time 595ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 05:00:49,517 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}
+
+2022-12-09 05:00:49,592 INFO [PUSH-SUCC] 387ms, all delay time 982ms, SLA 982ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 05:00:49,900 INFO [PUSH-SUCC] 122ms, all delay time 709ms, SLA 383ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 05:00:49,936 INFO [PUSH-SUCC] 344ms, all delay time 901ms, SLA 907ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 05:00:50,040 INFO [PUSH-SUCC] 263ms, all delay time 849ms, SLA 523ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 05:00:50,517 INFO [PUSH-SUCC] 135ms, all delay time 680ms for subscriber 172.30.0.33, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 05:00:50,634 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=7}
+
+2022-12-09 05:00:50,799 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}
+
+2022-12-09 05:00:50,932 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=5}
+
+2022-12-09 05:00:51,188 INFO [PUSH-SUCC] 101ms, all delay time 652ms, SLA 652ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 05:00:51,214 INFO [PUSH-SUCC] 112ms, all delay time 678ms, SLA 678ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 05:00:51,262 INFO [PUSH-SUCC] 157ms, all delay time 688ms, SLA 688ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 05:00:51,275 INFO [PUSH-SUCC] 170ms, all delay time 701ms, SLA 701ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 05:00:52,076 INFO [PUSH-SUCC] 551ms, all delay time 1277ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 05:00:52,273 INFO [PUSH-SUCC] 724ms, all delay time 1311ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 05:00:52,595 INFO [PUSH-SUCC] 629ms, all delay time 1795ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 07:01:37,213 INFO [PUSH-SUCC] 373ms, all delay time 937ms, SLA 970ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 07:01:38,875 INFO [PUSH-SUCC] 478ms, all delay time 1020ms, SLA 1020ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=172.30.0.32
+
+2022-12-09 07:01:39,043 INFO [PUSH-SUCC] 579ms, all delay time 1110ms, SLA 1110ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 07:01:42,847 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=9}
+
+2022-12-09 07:01:43,178 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}
+
+2022-12-09 07:01:43,838 INFO [PUSH-SUCC] 411ms, all delay time 991ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:01:43,929 INFO [PUSH-SUCC] 500ms, all delay time 1081ms, SLA 1081ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 07:01:44,046 INFO [PUSH-SUCC] 172ms, all delay time 689ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=11}, originalSize=1, DataSize=1
+
+2022-12-09 07:01:44,385 INFO [PUSH-SUCC] 958ms, all delay time 1538ms for subscriber 172.30.0.33, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:01:44,407 INFO [PUSH-SUCC] 1819ms, all delay time 4526ms, SLA 4531ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 07:01:44,418 INFO [PUSH-SUCC] 1795ms, all delay time 4537ms, SLA 4542ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 07:01:44,504 INFO [PUSH-SUCC] 1076ms, all delay time 1657ms, SLA 1657ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 07:01:44,515 INFO [PUSH-SUCC] 419ms, all delay time 936ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:01:44,623 INFO [PUSH-SUCC] 342ms, all delay time 885ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 07:01:44,638 INFO [PUSH-SUCC] 146ms, all delay time 710ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 07:01:44,704 INFO [PUSH-SUCC] 86ms, all delay time 641ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:02:32,001 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}
+
+2022-12-09 07:02:34,114 INFO [PUSH-SUCC] 1803ms, all delay time 2381ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:02:34,131 INFO [PUSH-SUCC] 1363ms, all delay time 1969ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=13}, originalSize=1, DataSize=1
+
+2022-12-09 07:02:34,151 INFO [PUSH-SUCC] 678ms, all delay time 2315ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:02:34,211 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=7}
+
+2022-12-09 07:02:34,338 INFO [PUSH-SUCC] 1859ms, all delay time 2502ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:02:35,130 INFO [PUSH-SUCC] 514ms, all delay time 1036ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 07:02:35,147 INFO [PUSH-SUCC] 517ms, all delay time 1115ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 07:02:35,204 INFO [PUSH-SUCC] 574ms, all delay time 1172ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 07:02:36,437 INFO [PUSH-SUCC] 1685ms, all delay time 2308ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:03:58,907 INFO [PUSH-SUCC] 428ms, all delay time 945ms, SLA 956ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 07:03:58,957 INFO [PUSH-SUCC] 348ms, all delay time 926ms, SLA 934ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 07:03:59,019 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=9}
+
+2022-12-09 07:03:59,045 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=11}
+
+2022-12-09 07:03:59,095 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}
+
+2022-12-09 07:03:59,122 INFO [PUSH-SUCC] 544ms, all delay time 1091ms, SLA 154ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=11}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 07:03:59,858 INFO [PUSH-SUCC] 267ms, all delay time 784ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:03:59,861 INFO [PUSH-SUCC] 230ms, all delay time 788ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-12-09 07:03:59,918 INFO [PUSH-SUCC] 128ms, all delay time 950ms, SLA 950ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 07:03:59,952 INFO [PUSH-SUCC] 352ms, all delay time 984ms, SLA 984ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 07:03:59,955 INFO [PUSH-SUCC] 87ms, all delay time 987ms, SLA 987ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 07:03:59,986 INFO [PUSH-SUCC] 98ms, all delay time 1006ms, SLA 1010ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 07:04:00,072 INFO [PUSH-SUCC] 150ms, all delay time 1092ms, SLA 1096ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:03:59,865 INFO [PUSH-SUCC] 146ms, all delay time 686ms, SLA 707ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 11:04:04,537 ERROR [PUSH-FAIL] 5032ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=8}, reason=Timeout After 5000 milliseconds,requestId =261, target=172.30.0.31
+
+2022-12-09 11:04:04,630 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =261
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 11:04:04,730 ERROR [PUSH-FAIL] 5015ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, reason=Timeout After 5000 milliseconds,requestId =263, target=172.30.0.32
+
+2022-12-09 11:04:04,799 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =263
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 11:04:04,861 ERROR [PUSH-FAIL] 5142ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, reason=Timeout After 5000 milliseconds,requestId =264, target=172.30.0.31
+
+2022-12-09 11:04:04,975 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=13}
+
+2022-12-09 11:04:04,949 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =264
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 11:04:04,998 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}
+
+2022-12-09 11:04:05,016 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=13}
+
+2022-12-09 11:04:05,045 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=11}
+
+2022-12-09 11:04:05,079 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}
+
+2022-12-09 11:04:05,129 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}
+
+2022-12-09 11:04:05,154 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}
+
+2022-12-09 11:04:05,549 INFO [PUSH-SUCC] 167ms, all delay time 771ms, SLA 771ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:04:05,623 INFO [PUSH-SUCC] 242ms, all delay time 845ms, SLA 845ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 11:04:05,673 INFO [PUSH-SUCC] 172ms, all delay time 812ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:05,678 INFO [PUSH-SUCC] 231ms, all delay time 816ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:05,728 INFO [PUSH-SUCC] 228ms, all delay time 867ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:05,785 INFO [PUSH-SUCC] 232ms, all delay time 815ms, SLA 821ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 11:04:06,175 INFO [PUSH-SUCC] 105ms, all delay time 636ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=15}, originalSize=1, DataSize=1
+
+2022-12-09 11:04:06,326 INFO [PUSH-SUCC] 43ms, all delay time 614ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=11}, originalSize=1, DataSize=1
+
+2022-12-09 11:04:06,344 INFO [PUSH-SUCC] 59ms, all delay time 575ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=8}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:08,406 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=9}
+
+2022-12-09 11:04:08,973 INFO [PUSH-SUCC] 43ms, all delay time 630ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:09,117 INFO [PUSH-SUCC] 177ms, all delay time 790ms, SLA 872ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 11:04:09,124 INFO [PUSH-SUCC] 185ms, all delay time 797ms, SLA 879ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:04:09,216 INFO [PUSH-SUCC] 193ms, all delay time 711ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=13}, originalSize=1, DataSize=1
+
+2022-12-09 11:04:38,032 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=14}
+
+2022-12-09 11:04:38,974 INFO [PUSH-SUCC] 284ms, all delay time 1029ms, SLA 1205ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=14}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:04:39,348 INFO [PUSH-SUCC] 162ms, all delay time 682ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:43,817 ERROR [PUSH-FAIL] 5202ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=14}, reason=Timeout After 5000 milliseconds,requestId =285, target=172.30.0.39
+
+2022-12-09 11:04:44,458 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =285
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 11:04:44,560 ERROR [PUSH-FAIL] 5374ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=14}, reason=Timeout After 5000 milliseconds,requestId =290, target=172.30.0.39
+
+2022-12-09 11:04:44,772 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =290
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 11:04:44,789 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=14}
+
+2022-12-09 11:04:44,926 INFO [PUSH-SUCC] 3737ms, all delay time 5511ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=11}, originalSize=1, DataSize=1
+
+2022-12-09 11:04:44,947 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=15}
+
+2022-12-09 11:04:45,134 INFO [PUSH-SUCC] 3906ms, all delay time 5756ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:45,150 INFO [PUSH-SUCC] 3949ms, all delay time 5982ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=17}, originalSize=1, DataSize=1
+
+2022-12-09 11:04:45,392 INFO [PUSH-SUCC] 278ms, all delay time 833ms, SLA 445ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:04:45,467 INFO [PUSH-SUCC] 354ms, all delay time 908ms, SLA 520ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 11:04:45,910 INFO [PUSH-SUCC] 385ms, all delay time 886ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:50,600 INFO [PUSH-SUCC] 3120ms, all delay time 4246ms, SLA 4260ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=12}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 11:04:50,949 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=13}
+
+2022-12-09 11:04:50,998 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=11}
+
+2022-12-09 11:04:51,084 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}
+
+2022-12-09 11:04:51,889 INFO [PUSH-SUCC] 449ms, all delay time 1164ms, SLA 1164ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 11:04:52,384 INFO [PUSH-SUCC] 471ms, all delay time 1484ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:04:52,630 INFO [PUSH-SUCC] 1182ms, all delay time 1905ms, SLA 1905ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:04:52,999 INFO [PUSH-SUCC] 1513ms, all delay time 2334ms, SLA 2347ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 11:04:56,171 INFO [PUSH-SUCC] 4316ms, all delay time 5506ms, SLA 5519ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:04:56,465 INFO [PUSH-SUCC] 4799ms, all delay time 5380ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=15}, originalSize=1, DataSize=1
+
+2022-12-09 11:04:56,507 INFO [PUSH-SUCC] 4415ms, all delay time 5610ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2022-12-09 11:11:15,932 INFO [PUSH-SUCC] 0ms, all delay time 587ms, SLA 705ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=16}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 11:11:20,357 ERROR [PUSH-FAIL] 5155ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=14}, reason=Timeout After 5000 milliseconds,requestId =314, target=172.30.0.31
+
+2022-12-09 11:11:20,694 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =314
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 11:11:22,010 ERROR [PUSH-FAIL] 5482ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=12}, reason=Timeout After 5000 milliseconds,requestId =315, target=172.30.0.31
+
+2022-12-09 11:11:24,121 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =315
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 11:11:27,809 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=18}
+
+2022-12-09 11:11:27,823 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=18}
+
+2022-12-09 11:11:27,926 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}
+
+2022-12-09 11:11:28,063 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=19}
+
+2022-12-09 11:11:28,261 INFO [PUSH-SUCC] 119ms, all delay time 680ms, SLA 683ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=18}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 11:11:28,382 INFO [PUSH-SUCC] 228ms, all delay time 801ms, SLA 804ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=18}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:11:28,488 INFO [PUSH-SUCC] 210ms, all delay time 815ms, SLA 815ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=19}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:11:28,555 INFO [PUSH-SUCC] 65ms, all delay time 635ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 11:11:28,612 INFO [PUSH-SUCC] 124ms, all delay time 692ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 11:11:28,920 INFO [PUSH-SUCC] 25ms, all delay time 539ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=14}, originalSize=0, DataSize=0
+
+2022-12-09 11:11:29,010 INFO [PUSH-SUCC] 13ms, all delay time 557ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=12}, originalSize=0, DataSize=0
+
+2022-12-09 11:11:30,215 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=15}
+
+2022-12-09 11:11:33,231 INFO [PUSH-SUCC] 618ms, all delay time 2960ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 11:11:33,257 INFO [PUSH-SUCC] 330ms, all delay time 3092ms, SLA 3093ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:11:33,277 INFO [PUSH-SUCC] 653ms, all delay time 3112ms, SLA 3113ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 11:12:46,971 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}
+
+2022-12-09 11:12:48,744 INFO [PUSH-SUCC] 75ms, all delay time 2316ms, SLA 1773ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:12:48,821 INFO [PUSH-SUCC] 224ms, all delay time 2393ms, SLA 1850ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.38
+
+2022-12-09 11:12:49,076 INFO [PUSH-SUCC] 39ms, all delay time 568ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 11:13:21,797 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}
+
+2022-12-09 11:13:22,424 INFO [PUSH-SUCC] 402ms, all delay time 943ms, SLA 626ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.34
+
+2022-12-09 11:13:48,756 INFO [PUSH-SUCC] 63ms, all delay time 579ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 11:47:47,912 ERROR [PUSH-FAIL] 74ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=17}, reason=Stream is already completed, no further calls are allowed, target=172.30.0.31
+
+2022-12-09 11:47:47,936 ERROR [PUSH-FAIL] 86ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=172.30.0.31
+
+2022-12-09 11:47:47,947 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-12-09 11:47:48,609 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=17}
+
+2022-12-09 11:47:47,951 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-12-09 11:47:48,662 INFO [PUSH-SUCC] 33ms, all delay time 825ms, SLA 826ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=17}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 11:47:49,105 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=3}
+
+2022-12-09 11:47:49,132 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=3}
+
+2022-12-09 11:47:49,386 INFO [PUSH-SUCC] 200ms, all delay time 776ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 11:47:49,522 INFO [PUSH-SUCC] 337ms, all delay time 883ms, SLA 417ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.38
+
+2022-12-09 11:47:49,974 INFO [PUSH-SUCC] 19ms, all delay time 1372ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=17}, originalSize=1, DataSize=1
+
+2022-12-09 11:47:50,875 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=21}
+
+2022-12-09 11:47:51,429 INFO [PUSH-SUCC] 17ms, all delay time 568ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=18}, originalSize=1, DataSize=1
+
+2022-12-09 11:47:51,485 INFO [PUSH-SUCC] 73ms, all delay time 617ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 11:47:51,493 INFO [PUSH-SUCC] 81ms, all delay time 671ms, SLA 672ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=21}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 11:47:51,501 INFO [PUSH-SUCC] 81ms, all delay time 644ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 11:47:51,505 INFO [PUSH-SUCC] 91ms, all delay time 610ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=17}, originalSize=1, DataSize=1
+
+2022-12-09 11:47:51,521 INFO [PUSH-SUCC] 8ms, all delay time 601ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 11:47:51,526 INFO [PUSH-SUCC] 13ms, all delay time 610ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 11:47:52,839 ERROR [PUSH-FAIL] 5002ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=17}, reason=Timeout After 5000 milliseconds,requestId =339, target=172.30.0.31
+
+2022-12-09 11:47:52,847 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =339
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 11:47:52,859 ERROR [PUSH-FAIL] 5009ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=3}, reason=Timeout After 5000 milliseconds,requestId =340, target=172.30.0.31
+
+2022-12-09 11:47:52,863 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =340
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 12:04:56,471 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=23}
+
+2022-12-09 12:04:56,811 INFO [PUSH-SUCC] 256ms, all delay time 785ms, SLA 785ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=23}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 12:04:56,971 INFO [PUSH-SUCC] 12ms, all delay time 608ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 12:04:56,977 INFO [PUSH-SUCC] 21ms, all delay time 549ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 12:04:56,985 INFO [PUSH-SUCC] 29ms, all delay time 590ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=18}, originalSize=1, DataSize=1
+
+2022-12-09 12:04:57,450 INFO [PUSH-SUCC] 77ms, all delay time 632ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 12:04:57,474 INFO [PUSH-SUCC] 96ms, all delay time 670ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 12:04:57,495 INFO [PUSH-SUCC] 110ms, all delay time 713ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=17}, originalSize=1, DataSize=1
+
+2022-12-09 16:06:31,726 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=20}
+
+2022-12-09 16:06:32,490 INFO [PUSH-SUCC] 265ms, all delay time 811ms, SLA 833ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=20}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 16:06:32,680 INFO [PUSH-SUCC] 227ms, all delay time 903ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 16:06:34,142 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=25}
+
+2022-12-09 16:06:34,771 INFO [PUSH-SUCC] 31ms, all delay time 678ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=20}, originalSize=1, DataSize=1
+
+2022-12-09 16:06:34,802 INFO [PUSH-SUCC] 61ms, all delay time 613ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=17}, originalSize=1, DataSize=1
+
+2022-12-09 16:06:34,816 INFO [PUSH-SUCC] 75ms, all delay time 714ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 16:06:34,826 INFO [PUSH-SUCC] 84ms, all delay time 1018ms, SLA 1018ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=25}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 16:06:34,840 INFO [PUSH-SUCC] 70ms, all delay time 971ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 16:06:34,863 INFO [PUSH-SUCC] 18ms, all delay time 606ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 16:06:34,883 INFO [PUSH-SUCC] 37ms, all delay time 599ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 16:06:56,418 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=5}
+
+2022-12-09 16:06:56,888 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=5}
+
+2022-12-09 16:06:57,087 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=3}
+
+2022-12-09 16:06:57,305 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=27}
+
+2022-12-09 16:06:57,425 INFO [PUSH-SUCC] 475ms, all delay time 1017ms, SLA 1006ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.38
+
+2022-12-09 16:06:57,504 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=19}
+
+2022-12-09 16:06:57,586 INFO [PUSH-SUCC] 125ms, all delay time 646ms, SLA 646ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.34
+
+2022-12-09 16:06:57,941 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=21}
+
+2022-12-09 16:06:57,990 INFO [PUSH-SUCC] 190ms, all delay time 703ms, SLA 711ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=19}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 16:06:58,012 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}
+
+2022-12-09 16:06:58,206 INFO [PUSH-SUCC] 9ms, all delay time 560ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 16:06:58,233 INFO [PUSH-SUCC] 36ms, all delay time 587ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 16:06:58,282 ERROR [PUSH-FAIL] 5744ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=19}, reason=Timeout After 5000 milliseconds,requestId =395, target=172.30.0.31
+
+2022-12-09 16:06:58,295 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =395
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 16:06:58,300 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=19}
+
+2022-12-09 16:06:58,421 INFO [PUSH-SUCC] 21ms, all delay time 562ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=21}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 16:06:58,513 INFO [PUSH-SUCC] 10ms, all delay time 598ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 16:06:58,622 INFO [PUSH-SUCC] 18ms, all delay time 591ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=27}, originalSize=1, DataSize=1
+
+2022-12-09 16:06:58,633 INFO [PUSH-SUCC] 26ms, all delay time 537ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 16:06:58,726 INFO [PUSH-SUCC] 22ms, all delay time 606ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 16:06:59,112 INFO [PUSH-SUCC] 6ms, all delay time 1037ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=19}, originalSize=1, DataSize=1
+
+2022-12-09 16:07:01,259 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=22}
+
+2022-12-09 16:07:02,125 ERROR [PUSH-FAIL] 5206ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=5}, reason=Timeout After 5000 milliseconds,requestId =396, target=172.30.0.31
+
+2022-12-09 16:07:02,192 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =396
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 16:07:02,405 ERROR [PUSH-FAIL] 5469ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=3}, reason=Timeout After 5000 milliseconds,requestId =397, target=172.30.0.31
+
+2022-12-09 16:07:02,428 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =397
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 16:07:02,436 INFO [PUSH-SUCC] 706ms, all delay time 1322ms, SLA 1373ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=22}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 16:07:02,452 INFO [PUSH-SUCC] 722ms, all delay time 1338ms, SLA 1389ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=22}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 16:07:02,454 INFO [PUSH-SUCC] 447ms, all delay time 1044ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:07:33,070 INFO [PUSH-SUCC] 310ms, all delay time 875ms, SLA 875ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=20}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 18:07:33,359 INFO [PUSH-SUCC] 95ms, all delay time 624ms, SLA 624ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=23}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 18:07:34,829 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=24}
+
+2022-12-09 18:07:34,939 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=21}
+
+2022-12-09 18:07:34,968 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}
+
+2022-12-09 18:07:35,653 INFO [PUSH-SUCC] 123ms, all delay time 755ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:07:35,678 INFO [PUSH-SUCC] 281ms, all delay time 872ms, SLA 873ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=24}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 18:07:35,687 INFO [PUSH-SUCC] 252ms, all delay time 789ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:07:35,821 INFO [PUSH-SUCC] 486ms, all delay time 1016ms, SLA 1017ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=24}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 18:07:35,906 INFO [PUSH-SUCC] 364ms, all delay time 1006ms, SLA 1006ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=21}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 18:07:36,326 INFO [PUSH-SUCC] 722ms, all delay time 1365ms, SLA 1365ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=21}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 18:34:11,822 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=23}
+
+2022-12-09 18:34:11,919 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}
+
+2022-12-09 18:34:11,959 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=29}
+
+2022-12-09 18:34:12,032 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=23}
+
+2022-12-09 18:34:12,577 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=7}
+
+2022-12-09 18:34:12,990 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=26}
+
+2022-12-09 18:34:12,988 INFO [PUSH-SUCC] 399ms, all delay time 1156ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:34:13,021 INFO [PUSH-SUCC] 495ms, all delay time 1173ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=26}, originalSize=0, DataSize=0
+
+2022-12-09 18:34:13,403 INFO [PUSH-SUCC] 814ms, all delay time 1659ms, SLA 1668ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=23}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 18:34:19,870 INFO [PUSH-SUCC] 7344ms, all delay time 8104ms, SLA 8104ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=29}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 18:34:19,956 INFO [PUSH-SUCC] 7399ms, all delay time 8124ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 18:34:20,961 ERROR [PUSH-FAIL] 8432ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, reason=Timeout After 5000 milliseconds,requestId =434, target=172.30.0.31
+
+2022-12-09 18:34:21,811 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =434
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 18:34:22,605 ERROR [PUSH-FAIL] 10049ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=23}, reason=Timeout After 5000 milliseconds,requestId =435, target=172.30.0.31
+
+2022-12-09 18:34:23,311 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =435
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 18:34:24,581 ERROR [PUSH-FAIL] 11947ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, reason=Timeout After 5000 milliseconds,requestId =439, target=172.30.0.31
+
+2022-12-09 18:34:24,839 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =439
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 18:34:24,977 ERROR [PUSH-FAIL] 12338ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=7}, reason=Timeout After 5000 milliseconds,requestId =440, target=172.30.0.31
+
+2022-12-09 18:34:25,014 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =440
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 18:34:25,042 INFO [PUSH-SUCC] 4884ms, all delay time 11639ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:34:25,049 INFO [PUSH-SUCC] 4889ms, all delay time 12112ms, SLA 12112ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=26}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 18:34:25,055 INFO [PUSH-SUCC] 4898ms, all delay time 12337ms for subscriber 172.30.0.38, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-12-09 18:34:25,062 INFO [PUSH-SUCC] 4504ms, all delay time 12125ms, SLA 12125ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=26}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 18:34:25,088 INFO [PUSH-SUCC] 1182ms, all delay time 2566ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:34:25,543 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=8}
+
+2022-12-09 18:34:25,613 INFO [PUSH-SUCC] 16ms, all delay time 580ms, SLA 70ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 18:34:25,693 INFO [PUSH-SUCC] 97ms, all delay time 1112ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=23}, originalSize=1, DataSize=1
+
+2022-12-09 18:34:25,880 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=9}
+
+2022-12-09 18:34:26,089 INFO [PUSH-SUCC] 53ms, all delay time 1112ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:34:26,284 INFO [PUSH-SUCC] 36ms, all delay time 549ms, SLA 549ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 18:34:26,414 INFO [PUSH-SUCC] 165ms, all delay time 679ms, SLA 679ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.30.0.38
+
+2022-12-09 18:35:32,511 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=5}
+
+2022-12-09 18:35:32,646 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=5}
+
+2022-12-09 18:35:32,805 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=28}
+
+2022-12-09 18:35:33,178 INFO [PUSH-SUCC] 62ms, all delay time 853ms, SLA 667ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.34
+
+2022-12-09 18:35:33,261 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=11}
+
+2022-12-09 18:35:34,323 INFO [PUSH-SUCC] 616ms, all delay time 1147ms, SLA 1147ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.30.0.38
+
+2022-12-09 18:35:34,343 INFO [PUSH-SUCC] 535ms, all delay time 1069ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 18:35:34,457 INFO [PUSH-SUCC] 1148ms, all delay time 1700ms, SLA 1708ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=28}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 18:35:34,617 INFO [PUSH-SUCC] 909ms, all delay time 1504ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:35:34,985 INFO [PUSH-SUCC] 40ms, all delay time 542ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:35:35,010 INFO [PUSH-SUCC] 64ms, all delay time 625ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=28}, originalSize=1, DataSize=1
+
+2022-12-09 18:35:35,067 INFO [PUSH-SUCC] 22ms, all delay time 553ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=31}, originalSize=1, DataSize=1
+
+2022-12-09 18:35:35,296 INFO [PUSH-SUCC] 150ms, all delay time 660ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=24}, originalSize=0, DataSize=0
+
+2022-12-09 18:35:35,314 INFO [PUSH-SUCC] 68ms, all delay time 657ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=11}, originalSize=1, DataSize=1
+
+2022-12-09 18:35:35,340 INFO [PUSH-SUCC] 94ms, all delay time 663ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:35:36,263 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=25}
+
+2022-12-09 18:35:36,871 INFO [PUSH-SUCC] 73ms, all delay time 626ms, SLA 626ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=25}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 18:35:36,918 INFO [PUSH-SUCC] 129ms, all delay time 674ms, SLA 674ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=25}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 18:35:36,947 INFO [PUSH-SUCC] 79ms, all delay time 657ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:59:43,033 INFO [PUSH-SUCC] 362ms, all delay time 895ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 18:59:43,680 INFO [PUSH-SUCC] 257ms, all delay time 801ms, SLA 801ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 18:59:46,118 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}
+
+2022-12-09 18:59:46,367 INFO [PUSH-SUCC] 220ms, all delay time 819ms, SLA 249ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 18:59:46,799 INFO [PUSH-SUCC] 77ms, all delay time 722ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 19:01:44,956 INFO [PUSH-SUCC] 2376ms, all delay time 3230ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 19:01:55,342 INFO [PUSH-SUCC] 2389ms, all delay time 3408ms, SLA 3556ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 19:02:15,723 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}
+
+2022-12-09 19:02:16,135 INFO [PUSH-SUCC] 90ms, all delay time 643ms, SLA 413ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.33
+
+2022-12-09 19:02:19,890 INFO [PUSH-SUCC] 25ms, all delay time 568ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 19:02:19,907 INFO [PUSH-SUCC] 41ms, all delay time 585ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 19:31:43,522 INFO [PUSH-SUCC] 14ms, all delay time 515ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 19:33:44,675 INFO [PUSH-SUCC] 38ms, all delay time 613ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 19:34:13,216 INFO [PUSH-SUCC] 30ms, all delay time 624ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 19:43:18,848 INFO [PUSH-SUCC] 2068ms, all delay time 2686ms, SLA 1836ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 19:43:19,013 INFO [PUSH-SUCC] 759ms, all delay time 1588ms, SLA 2001ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 19:43:19,728 INFO [PUSH-SUCC] 860ms, all delay time 1474ms for subscriber 172.30.0.33, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 19:43:20,144 INFO [PUSH-SUCC] 3363ms, all delay time 3982ms, SLA 3132ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 19:43:20,183 INFO [PUSH-SUCC] 1928ms, all delay time 2758ms, SLA 3171ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 19:43:21,375 INFO [PUSH-SUCC] 4681ms, all delay time 5213ms, SLA 4363ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=0, DataSize=0, target=172.30.0.32
+
+2022-12-09 19:43:21,831 INFO [PUSH-SUCC] 3863ms, all delay time 4406ms, SLA 4819ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 19:44:13,179 INFO [PUSH-SUCC] 0ms, all delay time 674ms, SLA 821ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 19:44:14,647 INFO [PUSH-SUCC] 1348ms, all delay time 2022ms, SLA 277ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 19:44:15,509 INFO [PUSH-SUCC] 672ms, all delay time 1260ms, SLA 1260ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 19:44:16,942 INFO [PUSH-SUCC] 177ms, all delay time 740ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 19:44:16,984 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=2}
+
+2022-12-09 19:44:17,783 INFO [PUSH-SUCC] 360ms, all delay time 944ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-12-09 19:44:17,816 INFO [PUSH-SUCC] 370ms, all delay time 992ms, SLA 997ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 19:44:17,888 INFO [PUSH-SUCC] 210ms, all delay time 772ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 19:44:18,176 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}
+
+2022-12-09 19:44:18,199 ERROR [PUSH-FAIL] 5021ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, reason=Timeout After 5000 milliseconds,requestId =20, target=172.30.0.32
+
+2022-12-09 19:44:18,217 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}
+
+2022-12-09 19:44:18,234 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}
+
+2022-12-09 19:44:18,249 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}
+
+2022-12-09 19:44:18,315 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =20
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 19:44:18,330 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}
+
+2022-12-09 19:44:18,635 INFO [PUSH-SUCC] 9ms, all delay time 585ms, SLA 585ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 19:44:18,649 INFO [PUSH-SUCC] 21ms, all delay time 596ms, SLA 596ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 19:44:18,917 INFO [PUSH-SUCC] 94ms, all delay time 683ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 19:44:19,013 INFO [PUSH-SUCC] 190ms, all delay time 731ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-12-09 19:44:19,197 INFO [PUSH-SUCC] 55ms, all delay time 1079ms, SLA 996ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 19:44:19,224 INFO [PUSH-SUCC] 82ms, all delay time 1105ms, SLA 1022ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, originalSize=1, DataSize=1, target=172.30.0.33
+
+2022-12-09 19:44:19,226 INFO [PUSH-SUCC] 95ms, all delay time 1108ms, SLA 1025ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 19:44:19,262 INFO [PUSH-SUCC] 131ms, all delay time 1144ms, SLA 1061ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 19:44:19,832 ERROR [PUSH-FAIL] 5003ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, reason=Timeout After 5000 milliseconds,requestId =22, target=172.30.0.32
+
+2022-12-09 19:44:19,843 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =22
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 19:44:22,000 INFO [PUSH-SUCC] 49ms, all delay time 643ms, SLA 643ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 19:44:22,047 INFO [PUSH-SUCC] 97ms, all delay time 690ms, SLA 690ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 19:44:41,848 INFO [PUSH-SUCC] 300ms, all delay time 831ms for subscriber 172.30.0.34, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 19:44:42,061 INFO [PUSH-SUCC] 513ms, all delay time 1097ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 19:44:42,765 INFO [PUSH-SUCC] 186ms, all delay time 702ms, SLA 703ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 19:44:43,042 INFO [PUSH-SUCC] 319ms, all delay time 893ms, SLA 893ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.34
+
+2022-12-09 19:44:43,280 INFO [PUSH-SUCC] 704ms, all delay time 1217ms, SLA 1218ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 19:44:52,133 INFO [PUSH-SUCC] 23ms, all delay time 586ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 19:44:52,190 INFO [PUSH-SUCC] 80ms, all delay time 609ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 19:55:12,707 INFO [PUSH-SUCC] 433ms, all delay time 1032ms, SLA 1038ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 19:55:17,301 ERROR [PUSH-FAIL] 5009ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=4}, reason=Timeout After 5000 milliseconds,requestId =46, target=172.30.0.35
+
+2022-12-09 19:55:17,357 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =46
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 19:56:14,053 INFO [PUSH-SUCC] 40ms, all delay time 614ms, SLA 614ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 19:56:19,021 ERROR [PUSH-FAIL] 5010ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =47, target=172.30.0.39
+
+2022-12-09 19:56:19,089 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =47
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 20:01:56,671 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 20:01:56,908 INFO [PUSH-SUCC] 178ms, all delay time 749ms, SLA 244ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 20:01:56,981 INFO [PUSH-SUCC] 244ms, all delay time 822ms, SLA 317ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 20:02:02,233 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}
+
+2022-12-09 20:02:02,570 INFO [PUSH-SUCC] 13ms, all delay time 613ms, SLA 338ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 20:02:02,793 INFO [PUSH-SUCC] 235ms, all delay time 836ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 20:02:06,256 INFO [PUSH-SUCC] 33ms, all delay time 558ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 20:04:07,779 INFO [PUSH-SUCC] 20ms, all delay time 599ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, originalSize=1, DataSize=1
+
+2022-12-09 20:26:32,864 INFO [PUSH-SUCC] 542ms, all delay time 1169ms, SLA 1173ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 20:26:32,928 ERROR [PUSH-FAIL] 601ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=172.30.0.39
+
+2022-12-09 20:26:33,014 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-12-09 20:26:33,368 INFO [PUSH-SUCC] 258ms, all delay time 1673ms, SLA 1677ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 20:26:37,378 ERROR [PUSH-FAIL] 5051ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =56, target=172.30.0.39
+
+2022-12-09 20:26:37,466 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =56
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 21:00:37,478 INFO [PUSH-SUCC] 189ms, all delay time 782ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 21:00:38,056 INFO [PUSH-SUCC] 53ms, all delay time 601ms, SLA 606ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 21:00:38,104 INFO [PUSH-SUCC] 103ms, all delay time 649ms, SLA 654ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 21:00:38,147 INFO [PUSH-SUCC] 145ms, all delay time 692ms, SLA 697ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 21:00:49,621 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}
+
+2022-12-09 21:00:49,988 INFO [PUSH-SUCC] 298ms, all delay time 834ms, SLA 368ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.38
+
+2022-12-09 21:00:54,326 INFO [PUSH-SUCC] 71ms, all delay time 601ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 21:01:27,213 INFO [PUSH-SUCC] 12ms, all delay time 588ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, originalSize=1, DataSize=1
+
+2022-12-09 21:19:16,531 ERROR [PUSH-FAIL] 196ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=172.30.0.39
+
+2022-12-09 21:19:16,569 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-12-09 21:19:17,038 INFO [PUSH-SUCC] 333ms, all delay time 1311ms, SLA 1320ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 21:19:17,167 INFO [PUSH-SUCC] 477ms, all delay time 1453ms, SLA 1462ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 21:19:21,358 ERROR [PUSH-FAIL] 5023ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =65, target=172.30.0.39
+
+2022-12-09 21:19:21,441 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =65
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 21:21:46,575 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 21:21:46,964 INFO [PUSH-SUCC] 122ms, all delay time 667ms, SLA 404ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 21:21:46,992 INFO [PUSH-SUCC] 136ms, all delay time 695ms, SLA 432ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 21:21:47,043 INFO [PUSH-SUCC] 189ms, all delay time 746ms, SLA 483ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 21:24:11,336 INFO [PUSH-SUCC] 65ms, all delay time 598ms, SLA 598ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 21:24:11,425 INFO [PUSH-SUCC] 149ms, all delay time 687ms, SLA 687ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 21:25:41,175 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 21:25:41,549 INFO [PUSH-SUCC] 13ms, all delay time 596ms, SLA 374ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 21:25:41,617 INFO [PUSH-SUCC] 76ms, all delay time 664ms, SLA 442ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 21:25:41,763 INFO [PUSH-SUCC] 226ms, all delay time 810ms, SLA 588ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 21:27:11,662 INFO [PUSH-SUCC] 18ms, all delay time 548ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, originalSize=1, DataSize=1
+
+2022-12-09 21:45:41,010 INFO [PUSH-SUCC] 114ms, all delay time 629ms, SLA 631ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 21:45:41,049 INFO [PUSH-SUCC] 157ms, all delay time 668ms, SLA 670ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 21:50:22,099 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 21:50:22,541 INFO [PUSH-SUCC] 57ms, all delay time 614ms, SLA 442ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 21:50:22,562 INFO [PUSH-SUCC] 79ms, all delay time 635ms, SLA 463ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 21:50:22,612 INFO [PUSH-SUCC] 130ms, all delay time 685ms, SLA 513ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 21:53:41,832 ERROR [PUSH-FAIL] 93ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=172.30.0.39
+
+2022-12-09 21:53:41,889 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-12-09 21:53:42,174 INFO [PUSH-SUCC] 186ms, all delay time 959ms, SLA 961ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 21:53:42,187 INFO [PUSH-SUCC] 195ms, all delay time 972ms, SLA 974ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 21:53:46,812 ERROR [PUSH-FAIL] 5074ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =82, target=172.30.0.39
+
+2022-12-09 21:53:46,892 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =82
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 21:56:20,857 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 21:56:21,034 INFO [PUSH-SUCC] 41ms, all delay time 628ms, SLA 177ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 21:56:21,038 INFO [PUSH-SUCC] 51ms, all delay time 632ms, SLA 181ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 21:56:21,429 INFO [PUSH-SUCC] 430ms, all delay time 1023ms, SLA 572ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 22:25:20,164 INFO [PUSH-SUCC] 61ms, all delay time 602ms, SLA 610ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 22:25:20,193 INFO [PUSH-SUCC] 95ms, all delay time 631ms, SLA 639ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 22:28:19,734 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 22:28:20,127 INFO [PUSH-SUCC] 14ms, all delay time 524ms, SLA 396ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 22:28:20,144 INFO [PUSH-SUCC] 31ms, all delay time 541ms, SLA 413ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 22:28:20,241 INFO [PUSH-SUCC] 132ms, all delay time 638ms, SLA 510ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 22:29:47,837 INFO [PUSH-SUCC] 50ms, all delay time 808ms, SLA 808ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 22:29:47,900 INFO [PUSH-SUCC] 90ms, all delay time 871ms, SLA 871ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.35
+
+2022-12-09 22:29:49,596 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}
+
+2022-12-09 22:29:49,614 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}
+
+2022-12-09 22:29:49,630 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}
+
+2022-12-09 22:29:49,638 INFO [PUSH-SUCC] 9ms, all delay time 551ms, SLA 25ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 22:29:49,742 INFO [PUSH-SUCC] 11ms, all delay time 531ms, SLA 531ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 22:29:49,901 INFO [PUSH-SUCC] 170ms, all delay time 690ms, SLA 690ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=7}, originalSize=0, DataSize=0, target=172.30.0.32
+
+2022-12-09 22:29:50,252 INFO [PUSH-SUCC] 116ms, all delay time 674ms, SLA 674ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 22:29:50,272 INFO [PUSH-SUCC] 136ms, all delay time 694ms, SLA 694ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 22:29:50,393 INFO [PUSH-SUCC] 257ms, all delay time 815ms, SLA 815ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 22:29:50,448 INFO [PUSH-SUCC] 196ms, all delay time 800ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2022-12-09 22:29:51,803 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}
+
+2022-12-09 22:29:52,397 INFO [PUSH-SUCC] 29ms, all delay time 628ms, SLA 628ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 22:29:52,415 INFO [PUSH-SUCC] 48ms, all delay time 646ms, SLA 646ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 22:29:52,522 INFO [PUSH-SUCC] 151ms, all delay time 753ms, SLA 753ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, originalSize=1, DataSize=1, target=172.30.0.33
+
+2022-12-09 22:32:14,097 INFO [PUSH-SUCC] 32ms, all delay time 578ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, originalSize=1, DataSize=1
+
+2022-12-09 22:39:08,745 INFO [PUSH-SUCC] 16ms, all delay time 540ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, originalSize=1, DataSize=1
+
+2022-12-09 23:25:30,169 INFO [PUSH-SUCC] 376ms, all delay time 985ms, SLA 1009ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.30.0.31
+
+2022-12-09 23:25:32,523 INFO [PUSH-SUCC] 108ms, all delay time 635ms, SLA 635ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 23:25:33,164 INFO [PUSH-SUCC] 431ms, all delay time 1061ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 23:25:33,359 INFO [PUSH-SUCC] 246ms, all delay time 918ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, originalSize=1, DataSize=1
+
+2022-12-09 23:25:33,416 INFO [PUSH-SUCC] 244ms, all delay time 892ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2022-12-09 23:55:57,968 ERROR [PUSH-FAIL] 5103ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=4}, reason=Timeout After 5000 milliseconds,requestId =124, target=172.30.0.31
+
+2022-12-09 23:55:58,283 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =124
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:55:58,765 ERROR [PUSH-FAIL] 5026ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=6}, reason=Timeout After 5000 milliseconds,requestId =125, target=172.30.0.31
+
+2022-12-09 23:55:58,817 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =125
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:01,208 ERROR [PUSH-FAIL] 5142ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =126, target=172.30.0.31
+
+2022-12-09 23:56:02,206 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =126
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:02,488 ERROR [PUSH-FAIL] 6332ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =127, target=172.30.0.31
+
+2022-12-09 23:56:02,705 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =127
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:03,021 ERROR [PUSH-FAIL] 5924ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=4}, reason=Timeout After 5000 milliseconds,requestId =128, target=172.30.0.31
+
+2022-12-09 23:56:03,257 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =128
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:03,421 ERROR [PUSH-FAIL] 5153ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, reason=Timeout After 5000 milliseconds,requestId =129, target=172.30.0.31
+
+2022-12-09 23:56:03,805 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =129
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:05,492 ERROR [PUSH-FAIL] 5890ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=4}, reason=Timeout After 5000 milliseconds,requestId =130, target=172.30.0.31
+
+2022-12-09 23:56:06,020 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =130
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:06,261 ERROR [PUSH-FAIL] 5668ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=6}, reason=Timeout After 5000 milliseconds,requestId =131, target=172.30.0.31
+
+2022-12-09 23:56:06,444 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =131
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:08,516 ERROR [PUSH-FAIL] 5012ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =132, target=172.30.0.31
+
+2022-12-09 23:56:08,743 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =132
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:09,168 ERROR [PUSH-FAIL] 5048ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=2}, reason=Timeout After 5000 milliseconds,requestId =136, target=172.30.0.31
+
+2022-12-09 23:56:09,591 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =136
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:10,689 ERROR [PUSH-FAIL] 5200ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=4}, reason=Timeout After 5000 milliseconds,requestId =137, target=172.30.0.31
+
+2022-12-09 23:56:10,857 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =137
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:56:11,000 ERROR [PUSH-FAIL] 5642ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=9}, reason=Timeout After 5000 milliseconds,requestId =138, target=172.30.0.31
+
+2022-12-09 23:56:11,283 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds,requestId =138
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 23:58:34,088 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}
+
+2022-12-09 23:58:36,056 INFO [PUSH-SUCC] 1732ms, all delay time 2248ms, SLA 2249ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.33
+
+2022-12-09 23:58:38,112 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}
+
+2022-12-09 23:58:38,735 INFO [PUSH-SUCC] 476ms, all delay time 1010ms, SLA 1010ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.34
+
+2022-12-09 23:58:42,880 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}
+
+2022-12-09 23:58:43,168 INFO [PUSH-SUCC] 32ms, all delay time 581ms, SLA 581ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 23:58:43,275 INFO [PUSH-SUCC] 35ms, all delay time 626ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-12-09 23:58:43,364 INFO [PUSH-SUCC] 25ms, all delay time 621ms for subscriber 172.30.0.35, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 23:58:45,138 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 23:58:45,149 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}
+
+2022-12-09 23:58:45,541 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}
+
+2022-12-09 23:58:45,602 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=2}
+
+2022-12-09 23:58:45,641 INFO [PUSH-SUCC] 58ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.39
+
+2022-12-09 23:58:45,664 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}
+
+2022-12-09 23:58:45,677 INFO [PUSH-SUCC] 92ms, all delay time 603ms, SLA 603ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.35
+
+2022-12-09 23:58:45,703 INFO [PUSH-SUCC] 117ms, all delay time 629ms, SLA 629ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 23:58:45,774 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}
+
+2022-12-09 23:58:45,776 INFO [PUSH-SUCC] 66ms, all delay time 677ms, SLA 678ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.38
+
+2022-12-09 23:58:45,806 INFO [PUSH-SUCC] 109ms, all delay time 701ms for subscriber 172.30.0.39, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 23:58:45,837 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}
+
+2022-12-09 23:58:46,006 INFO [PUSH-SUCC] 15ms, all delay time 522ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=2}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 23:58:46,215 INFO [PUSH-SUCC] 24ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.31
+
+2022-12-09 23:58:46,234 INFO [PUSH-SUCC] 43ms, all delay time 570ms, SLA 570ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.30.0.32
+
+2022-12-09 23:58:46,301 INFO [PUSH-SUCC] 10ms, all delay time 570ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 23:58:46,322 INFO [PUSH-SUCC] 29ms, all delay time 599ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 23:58:46,325 INFO [PUSH-SUCC] 32ms, all delay time 602ms for subscriber 172.30.0.32, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 23:58:46,339 INFO [PUSH-SUCC] 46ms, all delay time 550ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-12-09 23:58:46,414 INFO [PUSH-SUCC] 22ms, all delay time 607ms for subscriber 172.30.0.31, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+

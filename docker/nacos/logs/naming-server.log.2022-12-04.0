@@ -1,0 +1,148 @@
+2022-12-04 02:09:12,985 INFO Client connection 1670054763209_172.30.0.38_57892 disconnect, remove instances and subscribers
+
+2022-12-04 02:09:13,185 INFO Client connection 1670081367289_172.30.0.31_35498 disconnect, remove instances and subscribers
+
+2022-12-04 02:09:13,331 INFO Client connection 1670090952811_172.30.0.39_39738 connect
+
+2022-12-04 02:09:14,075 INFO Client connection 1670009961816_172.30.0.39_48848 disconnect, remove instances and subscribers
+
+2022-12-04 02:09:14,886 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=8}, 1670090952811_172.30.0.39_39738
+
+2022-12-04 02:09:15,750 INFO Client connection 1670090955530_172.30.0.38_41412 connect
+
+2022-12-04 02:09:16,098 INFO Client connection 1670028100082_172.30.0.38_38192 disconnect, remove instances and subscribers
+
+2022-12-04 02:09:17,417 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=10}, 1670090955530_172.30.0.38_41412
+
+2022-12-04 13:44:30,082 INFO Client connection 1670041935946_172.30.0.31_59942 disconnect, remove instances and subscribers
+
+2022-12-04 13:44:30,107 INFO Client connection 1670041972399_172.30.0.31_45376 disconnect, remove instances and subscribers
+
+2022-12-04 13:44:30,567 INFO Client connection 1670090955364_172.30.0.31_54012 disconnect, remove instances and subscribers
+
+2022-12-04 13:44:30,619 INFO Client connection 1670071330994_172.30.0.33_47918 disconnect, remove instances and subscribers
+
+2022-12-04 13:44:30,722 INFO Client connection 1670071331003_172.30.0.33_47924 disconnect, remove instances and subscribers
+
+2022-12-04 13:44:32,620 INFO Client connection 1670132671911_172.30.0.31_48384 connect
+
+2022-12-04 13:44:35,509 INFO Client connection 1670132674699_172.30.0.31_44730 connect
+
+2022-12-04 13:44:35,672 INFO Client connection 1670132675369_172.30.0.33_49892 connect
+
+2022-12-04 13:44:36,488 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=4}, 1670132675369_172.30.0.33_49892
+
+2022-12-04 13:44:37,867 INFO Client connection 1670132671911_172.30.0.31_48384 disconnect, remove instances and subscribers
+
+2022-12-04 13:44:40,536 WARN task com.alibaba.nacos.naming.push.v2.task.PushExecuteTask@306f34a1 takes 1157ms
+
+2022-12-04 13:44:44,153 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=2}, 1670132674699_172.30.0.31_44730
+
+2022-12-04 13:44:48,705 INFO Client connection 1670132688648_172.30.0.31_40260 connect
+
+2022-12-04 13:44:48,865 INFO Client connection 1670132674699_172.30.0.31_44730 disconnect, remove instances and subscribers
+
+2022-12-04 13:44:51,497 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=4}, 1670132688648_172.30.0.31_40260
+
+2022-12-04 13:47:26,355 INFO Client connection 1670081370971_172.30.0.39_42800 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:35,101 INFO Client connection 1670132675369_172.30.0.33_49892 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:36,292 INFO Client connection 1670132671816_172.30.0.31_48400 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:36,357 INFO Client connection 1670081368904_172.30.0.32_44748 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:36,443 INFO Client connection 1670090952811_172.30.0.39_39738 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:36,460 INFO Client connection 1670132671911_172.30.0.31_48402 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:36,486 INFO Client connection 1670090955523_172.30.0.38_41410 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:36,559 INFO Client connection 1670132688648_172.30.0.31_40260 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:40,922 INFO Client connection 1669741674508_172.30.0.34_55210 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:41,019 INFO Client connection 1670132675368_172.30.0.33_49908 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:41,064 INFO Client connection 1670081368738_172.30.0.32_44734 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:41,177 INFO Client connection 1670019787328_172.30.0.34_50566 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:41,202 INFO Client connection 1670090955530_172.30.0.38_41412 disconnect, remove instances and subscribers
+
+2022-12-04 13:47:42,040 INFO Client connection 1670132861247_172.30.0.33_39994 connect
+
+2022-12-04 13:47:42,226 INFO Client connection 1670132861071_172.30.0.38_34910 connect
+
+2022-12-04 13:47:42,236 INFO Client connection 1670132861730_172.30.0.34_37666 connect
+
+2022-12-04 13:47:42,242 INFO Client connection 1670132861461_172.30.0.32_52970 connect
+
+2022-12-04 13:47:42,259 INFO Client connection 1670132861711_172.30.0.39_58234 connect
+
+2022-12-04 13:47:42,996 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=10}, 1670132861461_172.30.0.32_52970
+
+2022-12-04 13:47:42,998 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-phone', ephemeral=true, revision=10}, 1670132861711_172.30.0.39_58234
+
+2022-12-04 13:47:43,109 INFO Client connection 1670132862977_172.30.0.31_37162 connect
+
+2022-12-04 13:47:43,356 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=12}, 1670132861071_172.30.0.38_34910
+
+2022-12-04 13:47:43,558 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=6}, 1670132861247_172.30.0.33_39994
+
+2022-12-04 13:47:44,145 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=4}, 1670132861730_172.30.0.34_37666
+
+2022-12-04 13:47:44,537 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=6}, 1670132862977_172.30.0.31_37162
+
+2022-12-04 18:01:37,367 INFO Client connection 1670132861730_172.30.0.34_37666 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:37,721 INFO Client connection 1670132863417_172.30.0.31_37166 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:38,048 INFO Client connection 1670132861247_172.30.0.33_39994 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:38,139 INFO Client connection 1670132861711_172.30.0.39_58234 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:38,292 INFO Client connection 1670132862977_172.30.0.31_37162 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:38,509 INFO Client connection 1670132863192_172.30.0.39_35334 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:38,658 INFO Client connection 1670132860959_172.30.0.31_55806 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:38,902 INFO Client connection 1670148098639_172.30.0.32_59272 connect
+
+2022-12-04 18:01:38,913 INFO Client connection 1670148098684_172.30.0.34_47906 connect
+
+2022-12-04 18:01:39,089 INFO Client connection 1670148098762_172.30.0.33_57212 connect
+
+2022-12-04 18:01:39,501 INFO Client connection 1670132861461_172.30.0.32_52970 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:39,536 INFO Client connection 1670132863169_172.30.0.38_40394 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:39,626 INFO Client connection 1670132861277_172.30.0.33_40002 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:39,641 INFO Client connection 1670132862106_172.30.0.32_52972 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:39,866 INFO Client connection 1670148098708_172.30.0.38_52904 connect
+
+2022-12-04 18:01:39,946 INFO Client connection 1670132861071_172.30.0.38_34910 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:39,951 INFO Client connection 1670148098735_172.30.0.31_57260 connect
+
+2022-12-04 18:01:39,989 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=12}, 1670148098639_172.30.0.32_59272
+
+2022-12-04 18:01:40,031 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-religion', ephemeral=true, revision=14}, 1670148098708_172.30.0.38_52904
+
+2022-12-04 18:01:40,924 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=8}, 1670148098762_172.30.0.33_57212
+
+2022-12-04 18:01:41,282 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=8}, 1670148098735_172.30.0.31_57260
+
+2022-12-04 18:01:41,899 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=6}, 1670148098684_172.30.0.34_47906
+
+2022-12-04 18:01:42,236 INFO Client connection 1670132861475_172.30.0.34_37652 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:42,638 INFO Client connection 1670148100366_172.30.0.31_57280 disconnect, remove instances and subscribers
+
+2022-12-04 18:01:42,799 INFO Client connection 1670148100636_172.30.0.34_47910 disconnect, remove instances and subscribers
+
+2022-12-04 18:03:25,208 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-phone] services are automatically cleaned
+

@@ -1,0 +1,4 @@
+2022-12-05 22:19:20,469|172.30.0.2|application-dev.yml|DEFAULT_GROUP|null|null|1650767194000|pull|ok|-1|172.30.0.39|false
+2022-12-05 22:19:21,190|172.30.0.2|ruoyi-phone|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.39|false
+2022-12-05 22:19:21,238|172.30.0.2|ruoyi-phone.yml|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|172.30.0.39|false
+2022-12-05 22:19:21,341|172.30.0.2|ruoyi-phone-dev.yml|DEFAULT_GROUP|null|null|1668795812000|pull|ok|-1|172.30.0.39|false

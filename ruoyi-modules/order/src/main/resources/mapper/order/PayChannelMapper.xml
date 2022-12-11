@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.order.mapper.PayChannelMapper">
+
+    <resultMap type="PayChannel" id="PayChannelResult">
+        <id column="id"  property="id" />
+        <result column="code"  property="code" />
+        <result column="name"  property="name" />
+        <result column="config"  property="config" />
+        <result column="private_key"  property="privateKey" />
+        <result column="app_id"  property="appId" />
+        <result column="param"  property="param" />
+        <result column="img"  property="img" />
+        <result column="gate_way"  property="gateWay" />
+        <result column="notify_url"  property="notifyUrl" />
+        <result column="return_url"  property="returnUrl" />
+        <result column="show_url"  property="showUrl" />
+        <result column="cert_path"  property="certPath" />
+        <result column="root_cert_path"  property="rootCertPath" />
+        <result column="public_cert_path"  property="publicCertPath" />
+
+
+    </resultMap>
+
+    <sql id="selectPayChannelVo">
+        select  * from pay_channel
+    </sql>
+
+    <select id="selectPayChannelList" parameterType="PayChannel" resultMap="PayChannelResult">
+        <include refid="selectPayChannelVo"/>
+        <where>
+            <if test="code != null  and code != ''"> and code = #{code}</if>
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+            <if test="appId != null  and appId != ''"> and app_id = #{appId}</if>
+            <if test="gateWay != null  and gateWay != ''"> and gate_way = #{gateWay}</if>
+            <if test="notifyUrl != null  and notifyUrl != ''"> and notify_url = #{notifyUrl}</if>
+            <if test="returnUrl != null  and returnUrl != ''"> and return_url = #{returnUrl}</if>
+            <if test="showUrl != null  and showUrl != ''"> and show_url = #{showUrl}</if>
+
+        </where>
+    </select>
+
+    <select id="selectPayChannelById" parameterType="Long" resultMap="PayChannelResult">
+        <include refid="selectPayChannelVo"/>
+        where id = #{id}
+    </select>
+    <select id="selectAllPayChannelParamById"   parameterType="Long" resultMap="PayChannelResult">
+        select * from pay_channel   where id = #{id}
+
+    </select>
+
+    <insert id="insertPayChannel" parameterType="PayChannel">
+        insert into pay_channel
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="code != null and code != ''">code,</if>
+            <if test="name != null">name,</if>
+            <if test="config != null">config,</if>
+            <if test="privateKey != null">private_key,</if>
+            <if test="alipayPublicKey != null">alipay_public_key,</if>
+            <if test="appCertContent != null">app_cert_content,</if>
+            <if test="alipayPublicCertContent != null">alipay_public_cert_content,</if>
+            <if test="appId != null">app_id,</if>
+            <if test="param != null">param,</if>
+            <if test="img != null">img,</if>
+            <if test="gateWay != null">gate_way,</if>
+            <if test="notifyUrl != null">notify_url,</if>
+            <if test="returnUrl != null">return_url,</if>
+            <if test="showUrl != null">show_url,</if>
+
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="code != null and code != ''">#{code},</if>
+            <if test="name != null">#{name},</if>
+            <if test="config != null">#{config},</if>
+            <if test="privateKey != null">#{privateKey},</if>
+            <if test="alipayPublicKey != null">#{alipayPublicKey},</if>
+            <if test="appCertContent != null">#{appCertContent},</if>
+            <if test="alipayPublicCertContent != null">#{alipayPublicCertContent},</if>
+            <if test="appId != null">#{appId},</if>
+            <if test="param != null">#{param},</if>
+            <if test="img != null">#{img},</if>
+            <if test="gateWay != null">#{gateWay},</if>
+            <if test="notifyUrl != null">#{notifyUrl},</if>
+            <if test="returnUrl != null">#{returnUrl},</if>
+            <if test="showUrl != null">#{showUrl},</if>
+
+        </trim>
+    </insert>
+
+    <update id="updatePayChannel" parameterType="PayChannel">
+        update pay_channel
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="code != null and code != ''">code = #{code},</if>
+            <if test="name != null">name = #{name},</if>
+            <if test="config != null">config = #{config},</if>
+            <if test="privateKey != null">private_key = #{privateKey},</if>
+            <if test="alipayPublicKey != null">alipay_public_key = #{alipayPublicKey},</if>
+            <if test="appCertContent != null">app_cert_content = #{appCertContent},</if>
+            <if test="alipayPublicCertContent != null">alipay_public_cert_content = #{alipayPublicCertContent},</if>
+            <if test="appId != null">app_id = #{appId},</if>
+            <if test="param != null">param = #{param},</if>
+            <if test="img != null">img = #{img},</if>
+            <if test="gateWay != null">gate_way = #{gateWay},</if>
+            <if test="notifyUrl != null">notify_url = #{notifyUrl},</if>
+            <if test="returnUrl != null">return_url = #{returnUrl},</if>
+            <if test="showUrl != null">show_url = #{showUrl},</if>
+
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deletePayChannelById" parameterType="Long">
+        delete from pay_channel where id = #{id}
+    </delete>
+
+    <delete id="deletePayChannelByIds" parameterType="String">
+        delete from pay_channel where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>
