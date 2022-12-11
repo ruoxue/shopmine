@@ -177,4 +177,4 @@ lint/tmp/
 /logs/
 /key/
 /.idea/
-/docker/mysql/data/
+/docker/mysql/data
